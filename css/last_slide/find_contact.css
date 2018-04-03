@@ -12,13 +12,8 @@
   position: absolute;
   background: #5e42b0;
   color: #f5f6f7;
-  /*margin-top: 211px;*/
-  /*margin-left: 876px;*/
-  /*display: flex;*/
 }
 .find_contact .num_sportsman {
-  /*margin-left: 70px;*/
-  /*margin-top: 61px;*/
   color: #f5f6f7;
 }
 .be_active .num_sportsman::after {
@@ -36,7 +31,7 @@
 .find_contact_text p {
   color: #000000;
   font-family: OpenSansRegular;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 1.2px;
