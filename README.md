@@ -5,7 +5,7 @@ https://albina-art.github.io/netology_diploma/
 
 Макеты сайта для различных экранов выглядят так:
 
-![Layout](./img/layouts.jpg)
+![Layout](./images/layouts.jpg)
 
 Исходные файлы макетов хранятся в директории [sources](./sources/) репозитория:
 
