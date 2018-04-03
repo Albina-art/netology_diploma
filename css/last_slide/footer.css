@@ -1,0 +1,60 @@
+.footer {
+  height: 960px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-size: cover;
+  background-color: #0a0d34;
+  background-image: url("../../images/desktop/footer_sport.jpg");
+  background-repeat: no-repeat;
+}
+.title_footer {
+  padding-top: 229px;
+  padding-left: 504px;
+  display: flex;
+}
+.text_footer {
+  margin-left: 37px;
+  margin-top: 22px;
+  color: #ffffff;
+  font-family: OpenSansBold;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 4.41px;
+}
+.footer_surface {
+  width: 130px;
+  height: 137px;
+  border-radius: 40px;
+  box-shadow: 0 16px 24px #0a0e34;
+  background-color: #5e42b0;
+}
+.footer .surface_logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 28px;
+    margin-top: 28px;
+    position: absolute;
+}
+#download_text {
+  color: #a496ca;
+  font-family: OpenSansRegular;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34.49px;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: 20px;
+}
+.surface_logo_text {
+  text-align: center;
+  margin-top: 262px;
+  left: 50%;
+  margin-left: calc(50% - 95px);
+  width: 191px;
+  height: 52px;
+}
+.footer .button {
+  margin-top: 151px;
+}

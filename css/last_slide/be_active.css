@@ -1,0 +1,42 @@
+.be_active {
+  height: 730px;
+  display: flex;
+}
+.be_active_img {
+  background-color: #e6f5fc;
+  width: 50%;
+}
+.number {
+  width: 168px;
+  height: 155px;
+  position: absolute;
+  background: #5e42b0;
+  color: #f5f6f7;
+  margin-top: 211px;
+  margin-left: 876px;
+  display: flex;
+}
+.number .num_sportsman {
+  margin-left: 70px;
+  margin-top: 61px;
+  color: #f5f6f7;
+}
+.number .num_sportsman::after {
+  background-color: #ffffff;
+  opacity: 0.3;
+  top: 30px;
+}
+.be_active .title_main {
+  padding-top: 260px;
+}
+.be_active_text {
+  margin-left: 117px;
+}
+.be_active_text p {
+  color: #000000;
+  font-family: OpenSansRegular;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1.2px;
+}

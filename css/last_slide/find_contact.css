@@ -1,0 +1,43 @@
+.find_contact {
+  height: 730px;
+  display: flex;
+}
+.find_contact_img {
+  background-color: #e6f5fc;
+  width: 50%;
+}
+.number {
+  width: 168px;
+  height: 155px;
+  position: absolute;
+  background: #5e42b0;
+  color: #f5f6f7;
+  /*margin-top: 211px;*/
+  /*margin-left: 876px;*/
+  /*display: flex;*/
+}
+.find_contact .num_sportsman {
+  /*margin-left: 70px;*/
+  /*margin-top: 61px;*/
+  color: #f5f6f7;
+}
+.be_active .num_sportsman::after {
+  background-color: #ffffff;
+  opacity: 0.3;
+  top: 30px;
+}
+.find_contact .title_main {
+  padding-top: 260px;
+}
+.find_contact_text {
+  width: 50%;
+  margin-left: 193px;
+}
+.find_contact_text p {
+  color: #000000;
+  font-family: OpenSansRegular;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1.2px;
+}

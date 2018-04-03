@@ -10,10 +10,12 @@
 .athlets .middle_sportsman{
   background: #f6f3fa;
   padding-left: 50%;
+  min-height: 256px;
 }
 .athlets .footer_sportsman {
   background: #5e3db3;
   padding-left: 50%;
+  min-height: 297px;
 }
 .footballer_athlets {
   position: absolute;

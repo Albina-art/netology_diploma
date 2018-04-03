@@ -1,6 +1,7 @@
 .players {
-  height: 960px;
+  min-height: 960px;
   display: flex;
+  box-sizing: border-box;
   flex-direction: row-reverse;
 }
 .title_players {
@@ -9,16 +10,18 @@
   color: #e6e6e6;
 }
 .top_players {
-  min-height: 443px;
+  min-height: 450px;
   padding-left: 324px;
 }
 .players .middle_sportsman{
   rgba(10, 14, 52, 0.04);
+  min-height: 244px;
   padding-left: 324px;
 }
 .players .footer_sportsman {
   background-color: #0a0e34;
   padding-left: 324px;
+  min-height: 270px;
 }
 .footballer_players {
   position: absolute;
