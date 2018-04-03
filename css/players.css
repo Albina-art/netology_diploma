@@ -1,0 +1,34 @@
+.players {
+  height: 960px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.title_players {
+  text-transform: uppercase;
+  font-size: 80px;
+  color: #e6e6e6;
+}
+.top_players {
+  min-height: 443px;
+  padding-left: 324px;
+}
+.players .middle_sportsman{
+  rgba(10, 14, 52, 0.04);
+  padding-left: 324px;
+}
+.players .footer_sportsman {
+  background-color: #0a0e34;
+  padding-left: 324px;
+}
+.footballer_players {
+  position: absolute;
+  padding-right: 124px;
+  width: 992px;
+  height: 813px;
+  background-image: url("../img/desktop/players.png");
+  background-repeat: no-repeat;
+}
+.players .footer_sportsman .num_sportsman {
+  color: #9173e6;
+}
+
