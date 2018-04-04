@@ -12,6 +12,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 html{
   font-size: 100%;
 }
@@ -21,18 +22,8 @@ body {
 p {
   margin: 0;
 }
-.container {
-  margin: 0 auto;
-  max-width: 1920px;
-}
 h3 {
   margin: 0;
-}
-.button {
-  display: flex;
-  margin-top: 11.8%;/*200px*/
-  min-height: 77px;
-  font-size: 0.875rem;
 }
 
 .apple_logo {
@@ -42,13 +33,18 @@ h3 {
   height: 48px;
   width: 42px;
 }
-
 .google_play {
   padding-top: 11px;
   position: absolute;
   margin-left: 57px;
   height: 50px;
   width: 40px;
+}
+
+.button {
+  display: flex;
+  min-height: 77px;
+  font-size: 0.875rem;
 }
 
 #button_right .logo_bottom, #button_right .logo_top {
@@ -69,11 +65,9 @@ h3 {
   font-family: OpenSansBold;
   letter-spacing: 0.7px;
 }
-
 .button_logo {
   display: flex;
   flex-direction: column;
-  width: 17%;
   border-radius: 40px;
   box-shadow: 0 16px 24px #0a0e34;
   background-color: #5e42b0;
@@ -85,4 +79,32 @@ h3 {
 #button_right {
   margin-right: auto;
 }
+@media (min-width: 1024px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1920px;
+  }
+  .button_logo {
+    width: 17%;
+  }
+  .button {
+    margin-top: 11.8%;
+  }
 
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    min-width: 100%;
+  }
+  .button_logo {
+    width: 40.5%;
+  }
+  .button {
+    margin-top: 32.5%;
+  }
+
+}
+@media (max-width: 767px) {
+  .home {
+  }
+}
