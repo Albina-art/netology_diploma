@@ -1,13 +1,13 @@
 @media (min-width: 1024px) {
   #find_contact_num {
-    position: absolute;
-    margin-left: -865px;
+    left: 84px;
   }
   #find_contact {
     flex-direction: row-reverse;
   }
-}
-@media (max-width: 767px) {
-  .be_active {
+  #find_contact .be_active_text{
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 193px;
   }
 }

@@ -90,17 +90,21 @@
   .player .desktop {
     display: none;
   }
-
+  .top_player p {
+    max-width: 300px;
+  }
+  .player .middle_sportsman p {
+    max-width: 400px;
+  }
 }
 
 @media (max-width: 767px) {
   .player {
-    max-width: 320px;
+    min-width: 320px;
   }
   .top_player {
     min-height: 350px;
     padding-left: 34px;
-    padding-bottom: 51px;
   }
   .top_player .title_main {
     margin-bottom: 300px;
@@ -124,6 +128,15 @@
   }
   .player .desktop {
     display: none;
+  }
+  .top_player p {
+    max-width: 245px;
+  }
+  .player .middle_sportsman p {
+    max-width: 400px;
+  }
+  .player .footer_sportsman p {
+    max-width: 225px;
   }
 
 }

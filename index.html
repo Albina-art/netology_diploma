@@ -20,9 +20,11 @@
 <body>
   <div class="container">
     <div class="top_sport">
+
       <img src="images/svg/surface_logo_text.svg" class="surface_logo" alt="логотип surface">
       <div id="title-left" class="title">Be recruited</div>
       <div id="title-right" class="title">Play college sports</div>
+
       <div class="button">
         <div class="button_logo" id="button_left">
           <img src="images/svg/apple_logo_black.svg" class="apple_logo" alt="apple logo">
@@ -35,11 +37,13 @@
           <div class="logo_bottom">Google play</div>
         </div>
       </div>
+
     </div>
 
     <div class="athlets">
       <div class="footballer_athlets"></div>
       <div class="content">
+
         <div class="top_athlets">
           <h3 class="title_main">Athlets</h3>
           <div class="title_sportsman">
@@ -50,6 +54,7 @@
             Connect with coaches directly, you can ping coaches
           </p>
         </div>
+
         <div class="middle_sportsman">
           <div class="title_sportsman">
             <span class="num_sportsman">02</span>
@@ -61,6 +66,7 @@
             player. This is the team work aspect to Surface 1.
           </p>
         </div>
+
         <div class="footer_sportsman">
           <div class="title_sportsman">
             <span class="num_sportsman">03</span>
@@ -72,6 +78,7 @@
             Access to training classes, tutor sessions, etc
           </p>
         </div>
+
       </div>
     </div>
 
@@ -80,6 +87,7 @@
         <div class="footballer_player_child"></div>
       </div>
       <div class="content">
+
         <div class="top_player">
           <h3 class="title_main">Players</h3>
           <div class="title_sportsman">
@@ -87,7 +95,7 @@
             Connection
           </div>
           <p class="tablets">
-            Connect with talented athlete directly,<br>
+            Connect with talented athlete directly,
             you can watch their skills.
           </p>
           <p class="desktop">
@@ -95,13 +103,14 @@
             skills through video showreels directly from Surface 1.
           </p>
         </div>
+
         <div class="middle_sportsman">
           <div class="title_sportsman">
             <span class="num_sportsman">02</span>
             Collaboraion
           </div>
           <p class="tablets">
-            Work with recruiter to increase your chances of<br>
+            Work with recruiter to increase your chances of
             findingtalented athlete.
           </p>
           <p class="desktop">
@@ -109,6 +118,7 @@
             talented athlete.
           </p>
         </div>
+
         <div class="footer_sportsman">
           <div class="title_sportsman">
             <span class="num_sportsman">03</span>
@@ -118,11 +128,24 @@
             Save your time recruit proper athlets for your team.
           </p>
         </div>
+
       </div>
     </div>
 
     <div class="be_active">
-      <img src="images/desktop/be_active.jpg" class="be_active_img" alt="буть активным">
+
+      <picture class="be_active_preview">
+        <source media="(min-width: 1024px)"
+          srcset="images/desktop/be_active.jpg">
+        <source media="(min-width: 768px) and (max-width: 1023px)"
+          srcset="./images/tablets/be_active.jpg">
+        <source media="(max-width: 767px)"
+          srcset="./images/mobile/be_active.jpg">
+        <img class="be_active_img"
+          src="./images/desktop/be_active.jpg"
+          alt="Логотип буть активным">
+      </picture>
+
       <div class="number">
         <span class="num_sportsman">01</span>
       </div>
@@ -135,10 +158,23 @@
           more popular.
         </p>
       </div>
+
     </div>
 
     <div class="be_active" id="find_contact">
-      <img src="images/desktop/find_contact.jpg" class="be_active_img" alt="буть общительным">
+
+      <picture class="be_active_preview">
+        <source media="(min-width: 1024px)"
+          srcset="images/desktop/find_contact.jpg">
+        <source media="(min-width: 768px) and (max-width: 1023px)"
+          srcset="./images/tablets/find_contact.jpg">
+        <source media="(max-width: 767px)"
+          srcset="./images/mobile/find_contact.jpg">
+        <img class="be_active_img"
+          src="./images/desktop/find_contact.jpg"
+          alt="Логотип буть общительным">
+      </picture>
+
       <div class="number" id="find_contact_num">
         <span class="num_sportsman">02</span>
       </div>
@@ -153,7 +189,19 @@
     </div>
 
     <div class="be_active">
-      <img src="images/desktop/work_it.jpg" class="be_active_img" alt="достичь цели">
+
+      <picture class="be_active_preview">
+        <source media="(min-width: 1024px)"
+          srcset="images/desktop/work_it.jpg">
+        <source media="(min-width: 768px) and (max-width: 1023px)"
+          srcset="./images/tablets/work_it.jpg">
+        <source media="(max-width: 767px)"
+          srcset="./images/mobile/work_it.jpg">
+        <img class="be_active_img"
+          src="./images/desktop/work_it.jpg"
+          alt="Логотип достичь цель">
+      </picture>
+
       <div class="number">
         <span class="num_sportsman">03</span>
       </div>
@@ -196,5 +244,6 @@
     </div>
 
   </div>
+
 </body>
 </html>

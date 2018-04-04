@@ -98,6 +98,9 @@
   .top_athlets .title_main {
     margin-bottom: 300px;
   }
+  .top_athlets p {
+    padding-bottom: 51px;
+  }
 
   .athlets .middle_sportsman {
     padding-left: 20px;
