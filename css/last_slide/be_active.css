@@ -13,11 +13,6 @@
   background-color: #ffffff;
   opacity: 0.3;
 }
-.be_active_text {
-  width: 50%;
-  padding-left: 117px;
-  box-sizing: border-box;
-}
 .be_active_text p {
   color: #000000;
   font-family: OpenSansRegular;
@@ -54,6 +49,27 @@
   .be_active .title_main {
     padding-top: 260px;
   }
+  .be_active_content {
+    width: 50%;
+    box-sizing: border-box;
+  }
+  .be_active_content p {
+    max-width: 315px;
+  }
+  .find_contact_content {
+    max-width: 380px;
+  }
+  .work_it_content {
+    max-width: 500px;
+  }
+
+  .be_active_text {
+    margin-left: 44px;
+  }
+  #find_contact .be_active_text {
+    margin-right: 97px;
+  }
+
 
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -61,7 +77,7 @@
     width: 116px;
     height: 116px;
     position: absolute;
-    margin-top: -80px;
+    margin-top: 500px;
     margin-left: 33px;
     display: flex;
   }
@@ -71,15 +87,20 @@
     font-size: 24px;
   }
   .number .num_sportsman::after {
-    top: 9px;
+    top: 30px;
     width: 22px;
     height: 5px;
-
   }
   .be_active_text {
-    min-height: 340px;
+    margin-left: 28px;
+    min-height: 335px;
+  }
+  .be_active_text p {
+    max-width: 595px;
   }
   .be_active_img {
+    /*background-size: cover;*/
+    min-height: 586px;
     width: 100%;
   }
   .be_active .title_main {
@@ -87,12 +108,14 @@
     padding-bottom: 37px;
   }
   .be_active {
+    max-width: 100%;
     min-height: 730px;
     display: flex;
     flex-direction: column;
   }
 }
 @media (max-width: 767px) {
-  .be_active {
+  .be_active_img {
+  width: 100%;
   }
 }

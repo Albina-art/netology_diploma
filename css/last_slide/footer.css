@@ -1,27 +1,14 @@
 .footer {
-  min-height: 960px;
   color: #ffffff;
   text-transform: uppercase;
   background-size: cover;
   background-color: #0a0d34;
-  background-image: url("../../images/desktop/footer_sport.jpg");
   background-repeat: no-repeat;
 }
-.title_footer {
-  padding-top: 229px;
-  padding-left: 504px;
-  display: flex;
-}
 .text_footer {
-  margin-left: 37px;
-  margin-top: 22px;
   color: #ffffff;
   font-family: OpenSansBold;
-  font-size: 5rem;
-  font-weight: 700;
-  line-height: 60px;
   text-transform: uppercase;
-  letter-spacing: 4.41px;
 }
 .footer_surface {
   width: 130px;
@@ -29,13 +16,6 @@
   border-radius: 40px;
   box-shadow: 0 16px 24px #0a0e34;
   background-color: #5e42b0;
-}
-.footer .surface_logo {
-  width: 80px;
-  height: 80px;
-  margin-left: 28px;
-  margin-top: 28px;
-  position: absolute;
 }
 #download_text {
   color: #a496ca;
@@ -49,12 +29,91 @@
 }
 .surface_logo_text {
   text-align: center;
-  margin-top: 13.6%;
+  margin-top: 13.6%;1021
   left: 50%;
   margin-left: calc(50% - 95px);
   width: 191px;
   height: 52px;
 }
-.footer .button {
-  margin-top: 151px;
+@media (min-width: 1024px) {
+  .footer {
+    min-height: 960px;
+    background-image: url("../../images/desktop/footer_sport.jpg");
+  }
+  .title_footer {
+    padding-top: 229px;
+    padding-left: 504px;
+    display: flex;
+  }
+  .text_footer {
+    margin-left: 37px;
+    margin-top: 22px;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 4.41px;
+  }
+  .footer .surface_logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 28px;
+    margin-top: 28px;
+    position: absolute;
+  }
+  .footer .button {
+    margin-top: 151px;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    min-height: 960px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../images/tablets/footer_sport.jpg");
+  }
+  .text_footer {
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+  }
+  .title_footer {
+    margin: 0 auto;
+  }
+
+  .footer .surface_logo {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+  }
+  .footer_surface {
+    margin-top: 126px;
+    margin-bottom: 82px;
+    width: 130px;
+    height: 137px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .footer .button {
+    margin-top: 342px;
+  }
+
+}
+@media (max-width: 767px) {
+  .footer {
+    min-height: 960px;
+    background-image: url("../../images/mobile/footer_sport.jpg");
+  }
+  .footer .surface_logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 28px;
+    margin-top: 28px;
+    position: absolute;
+  }
+
 }

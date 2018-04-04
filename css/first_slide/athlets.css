@@ -75,7 +75,9 @@
   .athlets .footer_sportsman p {
     max-width: 400px;
   }
-
+  .athlets {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
