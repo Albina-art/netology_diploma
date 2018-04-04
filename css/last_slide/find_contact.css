@@ -1,38 +1,67 @@
-.find_contact {
-  height: 730px;
-  display: flex;
+@media (min-width: 1024px) {
+  .find_contact {
+    height: 730px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .find_contact_img {
+    background-color: #e6f5fc;
+    width: 50%;
+  }
+  .find_contact .num_sportsman {
+    color: #f5f6f7;
+  }
+  .find_contact .number {
+    margin-left: -875px;
+  }
+  .find_contact .title_main {
+    padding-top: 260px;
+  }
+  .find_contact_text {
+    width: 50%;
+    margin-left: 193px;
+  }
+  .find_contact_text p {
+    color: #000000;
+    font-family: OpenSansRegular;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+  }
+
 }
-.find_contact_img {
-  background-color: #e6f5fc;
-  width: 50%;
+@media (min-width: 768px) and (max-width: 1023px) {
+  .find_contact_img {
+    width: 100%;
+  }
+  .find_contact .num_sportsman {
+    margin-left: 44px;
+    margin-top: 42px;
+    font-size: 24px;
+  }
+  .find_contact .title_main {
+    padding-top: 260px;
+  }
+  .find_contact_text {
+    width: 50%;
+    margin-left: 193px;
+  }
+  .find_contact .title_main {
+    padding-top: 80px;
+    padding-bottom: 37px;
+  }
+  .find_contact_text p {
+    color: #000000;
+    font-family: OpenSansRegular;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+  }
+
 }
-.number {
-  width: 168px;
-  height: 155px;
-  position: absolute;
-  background: #5e42b0;
-  color: #f5f6f7;
-}
-.find_contact .num_sportsman {
-  color: #f5f6f7;
-}
-.be_active .num_sportsman::after {
-  background-color: #ffffff;
-  opacity: 0.3;
-  top: 30px;
-}
-.find_contact .title_main {
-  padding-top: 260px;
-}
-.find_contact_text {
-  width: 50%;
-  margin-left: 193px;
-}
-.find_contact_text p {
-  color: #000000;
-  font-family: OpenSansRegular;
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 1.2px;
+@media (max-width: 767px) {
+  .be_active {
+  }
 }

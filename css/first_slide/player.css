@@ -12,6 +12,7 @@
   background-size: 100%;
 }
 .player .middle_sportsman{
+  background: #f5f4f9;
 }
 .player .footer_sportsman {
   background: #0a0e34;
@@ -60,25 +61,31 @@
     max-width: 100%
   }
   .top_player {
-    min-height: 450px;
-    padding-left: 16.9%;
+    min-height: 350px;
+    padding-left: 34px;
   }
   .player .middle_sportsman{
-    min-height: 244px;
-    padding-left: 16.9%;
+    min-height: 235px;
+    padding-left: 34px;
   }
   .player .footer_sportsman {
-    padding-left: 16.9%;
-    min-height: 270px;
+    padding-left: 34px;
+    min-height: 205px;
   }
-  .footballer_player {
-    position: absolute;
-    overflow: hidden;
-    margin-left: 332px;
-    margin-top: 37px;
+  .footballer_player_child{
+    position: relative;
     width: 690px;
     height: 565px;
+    margin-top: 10px;
+
     background-image: url("../../images/tablets/player.png");
+  }
+
+  .footballer_player {
+    overflow: hidden;
+    width: 436px;
+
+    position: absolute;
   }
   .player .desktop {
     display: none;
