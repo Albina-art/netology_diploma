@@ -20,64 +20,6 @@
   margin-right: auto;
 }
 
-.button {
-  display: flex;
-  margin-top: 11.8%;/*200px*/
-  min-height: 77px;
-  font-size: 0.875rem;
-}
-
-.apple_logo {
-  position: absolute;
-  padding-left: 20px;
-  padding-top: 11px;
-  height: 48px;
-  width: 42px;
-}
-
-.google_play {
-  padding-top: 11px;
-  position: absolute;
-  margin-left: 57px;
-  height: 50px;
-  width: 40px;
-}
-
-#button_right .logo_bottom, #button_right .logo_top {
-  margin-left: 126px;
-}
-
-#button_left .logo_bottom, #button_left .logo_top {
-  margin-left: 105px;
-}
-
-.logo_top {
-  margin-top: auto;
-  font-family: OpenSansRegular;
-  letter-spacing: 0.7px;
-}
-.logo_bottom {
-  margin-bottom: auto;
-  font-family: OpenSansBold;
-  letter-spacing: 0.7px;
-}
-
-.button_logo {
-  display: flex;
-  flex-direction: column;
-  width: 16%;
-  border-radius: 40px;
-  box-shadow: 0 16px 24px #0a0e34;
-  background-color: #5e42b0;
-}
-#button_left {
-  margin-left: auto;
-  margin-right: 3%;
-}
-#button_right {
-  margin-right: auto;
-}
-
 .title {
   height: 67px;
   font-weight: 700;
