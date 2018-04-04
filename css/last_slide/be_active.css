@@ -14,7 +14,9 @@
   opacity: 0.3;
 }
 .be_active_text {
-  margin-left: 117px;
+  width: 50%;
+  padding-left: 117px;
+  box-sizing: border-box;
 }
 .be_active_text p {
   color: #000000;
@@ -28,13 +30,14 @@
   .number {
     width: 168px;
     height: 155px;
-    position: absolute;
-    margin-top: 211px;
-    margin-left: 875px;
+    position: relative;
+    margin-left: -84px;
+    margin-top: 233px;
     display: flex;
   }
   .number .num_sportsman {
-    margin-left: 70px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 61px;
   }
   .number .num_sportsman::after {
@@ -82,7 +85,11 @@
     padding-top: 80px;
     padding-bottom: 37px;
   }
-
+  .be_active {
+    min-height: 730px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media (max-width: 767px) {
   .be_active {
