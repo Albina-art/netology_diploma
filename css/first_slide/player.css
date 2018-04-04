@@ -18,6 +18,7 @@
   background: #0a0e34;
 }
 .footballer_player {
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .player .footer_sportsman .num_sportsman {
@@ -39,10 +40,11 @@
   .footballer_player {
     position: absolute;
     z-index: 1;
-    padding-right: 124px;
     margin-top: -30px;
-    width: 992px;
-    height: 813px;
+    width: 51.7%;
+    height: 84.6%;
+    max-height: 815px;
+    max-width: 991px;
     background-image: url("../../images/desktop/player.png");
   }
   .top_player p {

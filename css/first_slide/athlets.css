@@ -12,6 +12,7 @@
   background: #5e3db3;
 }
 .footballer_athlets {
+  background-size: contain;
   position: absolute;
   background-repeat: no-repeat;
 }
@@ -23,8 +24,11 @@
     z-index: 3;
     margin-top: -31px;
     margin-left: 273px;
-    width: 725px;
-    height: 1105px;
+    margin-right: 922px;
+    width: 37.7%;
+    height: 115.1%;
+    max-height: 1105px;
+    max-width: 725px;
     background-image: url("../../images/desktop/athlets.png");
   }
   .top_athlets {
