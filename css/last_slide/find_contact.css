@@ -1,6 +1,5 @@
 @media (min-width: 1024px) {
   #find_contact_num {
-    box-sizing: border-box;
     position: absolute;
     margin-left: -865px;
   }

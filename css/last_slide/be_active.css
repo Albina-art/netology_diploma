@@ -28,12 +28,13 @@
 }
 @media (min-width: 1024px) {
   .number {
-    width: 168px;
+    min-width: 168px;
     height: 155px;
     position: relative;
     margin-left: -84px;
     margin-top: 233px;
     display: flex;
+    box-sizing: border-box;
   }
   .number .num_sportsman {
     margin-right: auto;
