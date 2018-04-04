@@ -12,6 +12,7 @@
   background: #5e3db3;
 }
 .footballer_athlets {
+  position: absolute;
   background-repeat: no-repeat;
 }
 .athlets .footer_sportsman .num_sportsman {
@@ -19,7 +20,6 @@
 }
 @media (min-width: 1024px) {
   .footballer_athlets {
-    position: absolute;
     z-index: 3;
     margin-top: -31px;
     margin-left: 273px;
@@ -50,7 +50,6 @@
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .footballer_athlets {
-    position: absolute;
     margin-top: 95px;
     margin-left: -162px;
     min-width: 497px;
@@ -84,7 +83,6 @@
   .athlets {
     flex-direction: column;
   }
-
   .footballer_athlets {
     margin-top: 80px;
     margin-left: 70px;
@@ -93,19 +91,27 @@
     background-image: url("../../images/mobile/athlets.png");
   }
   .top_athlets {
+    margin-right: 32px;
+    margin-left: 20px;
     min-height: 213px;
   }
-  .athlets .middle_sportsman{
+  .top_athlets .title_main {
+    margin-bottom: 300px;
+  }
+
+  .athlets .middle_sportsman {
+    padding-left: 20px;
     min-height: 262px;
   }
   .athlets .footer_sportsman {
+    padding-left: 20px;
     min-height: 208px;
   }
   .athlets .middle_sportsman p {
-    max-width: 276px;
+    padding-right: 52px;
   }
   .athlets .footer_sportsman p {
-    max-width: 266px;
+    padding-right: 66px;
   }
 
 }

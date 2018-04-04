@@ -129,11 +129,11 @@ h3 {
 }
 @media (max-width: 767px) {
   .container {
-    width: 100%;
+    min-width: 320px;
   }
   .button_logo {
     min-height: 35px;
-    width: 280px;
+    width: 87.5%;
   }
   .top_sport .button {
     font-size: 0.5rem;

@@ -94,6 +94,36 @@
 }
 
 @media (max-width: 767px) {
-  .home {
+  .player {
+    max-width: 320px;
   }
+  .top_player {
+    min-height: 350px;
+    padding-left: 34px;
+    padding-bottom: 51px;
+  }
+  .top_player .title_main {
+    margin-bottom: 300px;
+  }
+
+  .player .middle_sportsman{
+    min-height: 235px;
+    padding-left: 34px;
+  }
+  .player .footer_sportsman {
+    padding-left: 34px;
+    min-height: 205px;
+  }
+  .footballer_player {
+    margin-left: -7px;
+    position: absolute;
+    width: 302px;
+    height: 248px;
+    margin-top: 83px;
+    background-image: url("../../images/mobile/player.png");
+  }
+  .player .desktop {
+    display: none;
+  }
+
 }
