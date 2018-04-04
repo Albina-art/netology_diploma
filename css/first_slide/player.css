@@ -104,7 +104,7 @@
   }
   .top_player {
     min-height: 350px;
-    padding-left: 34px;
+    padding-left: 20px;
   }
   .top_player .title_main {
     margin-bottom: 300px;
@@ -112,10 +112,10 @@
 
   .player .middle_sportsman{
     min-height: 235px;
-    padding-left: 34px;
+    padding-left: 20px;
   }
   .player .footer_sportsman {
-    padding-left: 34px;
+    padding-left: 20px;
     min-height: 205px;
   }
   .footballer_player {

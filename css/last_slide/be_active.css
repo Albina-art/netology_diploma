@@ -19,8 +19,6 @@
   font-family: OpenSansRegular;
   font-size: 1.5rem;
   font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 1.2px;
 }
 @media (min-width: 1024px) {
   .number {
@@ -76,8 +74,10 @@
     width: calc(50% - 84px);
     padding-left: 44px;
   }
-  #find_contact .be_active_text {
-    margin-right: 97px;
+  .be_active_text p {
+    font-size: 1.5rem;
+    line-height: 28px;
+    letter-spacing: 1.2px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -105,9 +105,11 @@
   }
   .be_active_text p {
     max-width: 595px;
+    font-size: 1.5rem;
+    line-height: 28px;
+    letter-spacing: 1.2px;
   }
   .be_active_img {
-    /*background-size: cover;*/
     min-height: 586px;
     width: 100%;
   }
@@ -125,5 +127,44 @@
 @media (max-width: 767px) {
   .be_active_img {
     width: 100%;
+    min-height: 351px;
   }
+  .be_active .title_main {
+    padding-top: 80px;
+    padding-bottom: 37px;
+  }
+  .be_active {
+    max-width: 100%;
+    min-height: 730px;
+    display: flex;
+    flex-direction: column;
+  }
+  .number {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 33px;
+    display: flex;
+  }
+  .number .num_sportsman {
+    margin: auto;
+    font-size: 14px;
+  }
+  .number .num_sportsman::after {
+    top: 30px;
+    width: 16px;
+    height: 4px;
+  }
+  .be_active_text {
+    margin-left: 28px;
+    min-height: 335px;
+  }
+  .be_active_text p {
+    font-size: 1rem;
+    max-width: 250px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+  }
+
 }

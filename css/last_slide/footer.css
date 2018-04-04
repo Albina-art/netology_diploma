@@ -1,4 +1,6 @@
 .footer {
+  display: flex;
+  flex-direction: column;
   color: #ffffff;
   text-transform: uppercase;
   background-size: cover;
@@ -13,27 +15,17 @@
 .footer_surface {
   width: 130px;
   height: 137px;
-  border-radius: 40px;
+  border-radius: 15px;
   box-shadow: 0 16px 24px #0a0e34;
   background-color: #5e42b0;
 }
 #download_text {
   color: #a496ca;
   font-family: OpenSansRegular;
-  font-size: 1.875rem;
   font-weight: 400;
   line-height: 34.49px;
   text-transform: uppercase;
   position: absolute;
-  margin-top: 20px;
-}
-.surface_logo_text {
-  text-align: center;
-  margin-top: 13.6%;1021
-  left: 50%;
-  margin-left: calc(50% - 95px);
-  width: 191px;
-  height: 52px;
 }
 @media (min-width: 1024px) {
   .footer {
@@ -51,7 +43,6 @@
     font-size: 5rem;
     font-weight: 700;
     line-height: 60px;
-    text-transform: uppercase;
     letter-spacing: 4.41px;
   }
   .footer .surface_logo {
@@ -64,21 +55,29 @@
   .footer .button {
     margin-top: 151px;
   }
+  #download_text {
+    font-size: 1.875rem;
+    margin-top: 20px;
+  }
+  .surface_logo_text {
+    margin-top: 262px;
+    width: 191px;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .footer {
     min-height: 960px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
     background-image: url("../../images/tablets/footer_sport.jpg");
   }
   .text_footer {
     font-size: 5rem;
     font-weight: 400;
     line-height: 60px;
-    text-transform: uppercase;
   }
   .title_footer {
     margin: 0 auto;
@@ -101,19 +100,59 @@
   .footer .button {
     margin-top: 342px;
   }
+  #download_text {
+    font-size: 1.875rem;
+    margin-top: 20px;
+  }
+  .surface_logo_text {
+    margin-top: 55px;
+    width: 191px;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 }
 @media (max-width: 767px) {
   .footer {
-    min-height: 960px;
+    min-height: 568px;
     background-image: url("../../images/mobile/footer_sport.jpg");
   }
+  .footer_surface {
+    width: 72px;
+    height: 74px;
+    margin-top: 99px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
   .footer .surface_logo {
-    width: 80px;
-    height: 80px;
-    margin-left: 28px;
-    margin-top: 28px;
-    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+  }
+  .footer .button {
+    margin-top: 91px;
+  }
+  .text_footer {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spasing: 1.6;
+  }
+  .title_footer {
+    margin: 0 auto;
+  }
+  #download_text {
+    font-size: 14px;
+    margin-top: -8px;
+  }
+  .surface_logo_text {
+    margin-top: 86px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 133px;
+    height: 36px;
   }
 
 }
