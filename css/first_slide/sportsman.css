@@ -1,19 +1,14 @@
 .title_sportsman {
   color: #c1c1c1;
-  font-size: 2.25rem;
   font-weight: 700;
   line-height: 34.49px;
   text-transform: uppercase;
   letter-spacing: 1.8px;
   font-family: OpenSansBold;
-  font-size: 30px;
 }
 .title_main {
-  padding-top: 115px;
-  padding-bottom: 92px;
   color: #e7e7e7;
   font-family: OpenSansBold;
-  font-size: 5rem;
   font-weight: 700;
   line-height: 60px;
   text-transform: uppercase;
@@ -30,8 +25,6 @@
   background: #fff;
 }
 .content p {
-  margin-top: 18px;
-  font-size: 20px;
   font-weight: 400;
   letter-spacing: 1px;
   font-family: OpenSansRegular;
@@ -42,7 +35,6 @@
   width: 19px;
   height: 14px;
   color: #000000;
-  font-size: 18px;
   font-weight: 700;
   line-height: 34.49px;
   text-transform: uppercase;
@@ -77,4 +69,65 @@
 .footer_sportsman  p {
   color: #ffffff;
 }
+@media (min-width: 1024px) {
+  .title_main {
+    padding-top: 115px;
+    padding-bottom: 92px;
+    font-size: 5rem;
+  }
 
+  .title_sportsman {
+    font-size: 2.25rem;
+  }
+  .content p {
+    margin-top: 18px;
+    font-size: 20px;
+  }
+  .num_sportsman {
+    font-size: 18px;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .title_main {
+    padding-top: 86px;
+    padding-bottom: 60px;
+    font-size: 5rem;
+  }
+
+  .title_sportsman {
+    font-size: 2rem;
+  }
+  .content p {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+  }
+  .num_sportsman {
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .title_main {
+    padding-top: 24px;
+    padding-bottom: 18px;
+    font-size: 3.125rem;
+  }
+
+  .title_sportsman {
+    font-size: 1.75rem;
+  }
+  .content p {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+  }
+  .num_sportsman {
+    font-size: 14px;
+  }
+
+}

@@ -1,0 +1,92 @@
+.player {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row-reverse;
+}
+.title_player {
+  text-transform: uppercase;
+  font-size: 5rem;
+  color: #e6e6e6;
+}
+.top_player {
+  background-size: 100%;
+}
+.player .middle_sportsman{
+}
+.player .footer_sportsman {
+  background: #0a0e34;
+}
+.footballer_player {
+  background-repeat: no-repeat;
+}
+.player .footer_sportsman .num_sportsman {
+  color: #9173e6;
+}
+@media (min-width: 1024px) {
+  .top_player {
+    min-height: 450px;
+    padding-left: 16.9%;
+  }
+  .player .middle_sportsman{
+    min-height: 244px;
+    padding-left: 16.9%;
+  }
+  .player .footer_sportsman {
+    padding-left: 16.9%;
+    min-height: 270px;
+  }
+  .footballer_player {
+    position: absolute;
+    z-index: 1;
+    padding-right: 124px;
+    margin-top: -30px;
+    width: 992px;
+    height: 813px;
+    background-image: url("../../images/desktop/player.png");
+  }
+  .top_player p {
+    max-width: 450px;
+  }
+  .player .middle_sportsman p {
+    max-width: 600px;
+  }
+  .player .tablets {
+    display: none;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .player {
+    max-width: 100%
+  }
+  .top_player {
+    min-height: 450px;
+    padding-left: 16.9%;
+  }
+  .player .middle_sportsman{
+    min-height: 244px;
+    padding-left: 16.9%;
+  }
+  .player .footer_sportsman {
+    padding-left: 16.9%;
+    min-height: 270px;
+  }
+  .footballer_player {
+    position: absolute;
+    overflow: hidden;
+    margin-left: 332px;
+    margin-top: 37px;
+    width: 690px;
+    height: 565px;
+    background-image: url("../../images/tablets/player.png");
+  }
+  .player .desktop {
+    display: none;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .home {
+  }
+}

@@ -1,31 +1,110 @@
 .athlets {
-  height: 960px;
   display: flex;
 }
 .top_athlets {
-  min-height: 405px;
   font-family: OpenSansBold;
-  margin-left: 50%;
 }
 .athlets .middle_sportsman{
   background: #f6f3fa;
-  padding-left: 50%;
   min-height: 256px;
 }
 .athlets .footer_sportsman {
   background: #5e3db3;
-  padding-left: 50%;
-  min-height: 297px;
 }
 .footballer_athlets {
-  position: absolute;
-  margin-left: 272px;
-  width: 724px;
-  height: 1103px;
-  background-image: url("../../images/desktop/athlets.png");
   background-repeat: no-repeat;
 }
 .athlets .footer_sportsman .num_sportsman {
   color: #0a0e34;
 }
+@media (min-width: 1024px) {
+  .footballer_athlets {
+    position: absolute;
+    z-index: 3;
+    margin-top: -31px;
+    margin-left: 273px;
+    width: 725px;
+    height: 1105px;
+    background-image: url("../../images/desktop/athlets.png");
+  }
+  .top_athlets {
+    min-height: 405px;
+    padding-left: 50%;
+  }
+  .athlets .middle_sportsman {
+    padding-left: 50%;
+    min-height: 256px;
+  }
+  .athlets .footer_sportsman {
+    z-index: 2;
+    position: relative;
+    padding-left: 50%;
+    min-height: 297px;
+  }
+  .athlets .middle_sportsman p {
+    max-width: 625px;
+  }
+  .athlets .footer_sportsman p {
+    max-width: 600px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footballer_athlets {
+    position: absolute;
+    margin-top: 95px;
+    margin-left: -162px;
+    min-width: 497px;
+    height: 699px;
+    overflow: hidden;
+    background-image: url("../../images/tablets/athlets.png");
+  }
+  .top_athlets {
+    padding-left: 291px;
+    min-height: 350px;
+  }
+  .athlets .middle_sportsman{
+    padding-left: 291px;
+    min-height: 235px;
+  }
+  .athlets .footer_sportsman {
+    padding-left: 291px;
+    min-height: 205px;
+  }
+  .athlets .middle_sportsman p {
+    max-width: 375px;
+  }
+  .athlets .footer_sportsman p {
+    max-width: 400px;
+  }
 
+}
+
+@media (max-width: 767px) {
+  .athlets {
+    flex-direction: column;
+  }
+
+  .footballer_athlets {
+    margin-top: 80px;
+    margin-left: 70px;
+    min-width: 192px;
+    height: 281px;
+    background-image: url("../../images/mobile/athlets.png");
+  }
+  .top_athlets {
+    min-height: 213px;
+  }
+  .athlets .middle_sportsman{
+    min-height: 262px;
+  }
+  .athlets .footer_sportsman {
+    min-height: 208px;
+  }
+  .athlets .middle_sportsman p {
+    max-width: 276px;
+  }
+  .athlets .footer_sportsman p {
+    max-width: 266px;
+  }
+
+}
