@@ -12,29 +12,20 @@
   font-weight: normal;
   font-style: normal;
 }
-html{
+html {
   font-size: 100%;
 }
-body {
-  margin: 0;
-}
-p {
-  margin: 0;
-}
-h3 {
+
+h3, p, body {
   margin: 0;
 }
 
-.apple_logo {
-  position: absolute;
-}
-.google_play {
+.google_play, .apple_logo {
   position: absolute;
 }
 
 .button {
   display: flex;
-  min-height: 77px;
 }
 
 #button_right .logo_bottom, #button_right .logo_top {
@@ -73,6 +64,7 @@ h3 {
   .button {
     font-size: 0.875rem;
     margin-top: 9%;
+    min-height: 77px;
   }
   #button_left {
     margin-left: auto;
@@ -82,14 +74,14 @@ h3 {
     margin-right: auto;
   }
   .apple_logo {
-    padding-left: 38px;
-    padding-top: 11px;
+    padding-left: 1.97%;
+    padding-top: 0.67%;
     height: 48px;
     width: 42px;
   }
   .google_play {
-    padding-top: 11px;
-    margin-left: 57px;
+    padding-top: 0.57%;
+    margin-left: 2.9%;
     height: 50px;
     width: 40px;
   }

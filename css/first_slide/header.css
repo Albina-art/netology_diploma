@@ -1,4 +1,4 @@
-.top_sport {
+.header {
   color: #ffffff;
   text-transform: uppercase;
   background-size: cover;
@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
 }
-.top_sport .surface_logo {
+.header .surface_logo {
   min-height: 5.42%;
   margin-top: 4.7%;
   width: 9.95%;
@@ -20,7 +20,6 @@
 
 .title {
   font-family: OpenSansBold;
-  font-weight: 700;
 }
 @media (min-width: 1024px) {
   .top_sport .surface_logo {
@@ -29,33 +28,30 @@
     width: 9.95%;
   }
   .title {
-    line-height: 100px;
     font-size: 5.625rem;
   }
   #title-left {
-    margin-top: 295px;
-    padding-left: 191px;
-    letter-spacing: 4.96px;
+    margin-top: 15.4%;
+    padding-left: 9.9%;
   }
   #title-right {
-    letter-spacing: 4.5px;
-    padding-left: 642px;
-    margin-top: -7px;
+    padding-left: 33.4%;
+    margin-top: -0.4%;
   }
-  .top_sport {
-    position: relative;
-    z-index: 4;
+  .header {
     min-height: 960px;
+    position: relative;
     background-image: url("../../images/desktop/top_sport.jpg");
+    z-index: 4;
   }
 
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .top_sport {
+  .header {
     min-height: 960px;
     background-image: url("../../images/tablets/top_sport.jpg");
   }
-  .top_sport .surface_logo {
+  .header .surface_logo {
     min-height: 7.2%;
     margin-top: 5.1%;
     width: 26.7%;
@@ -78,11 +74,11 @@
 
 }
 @media (max-width: 767px) {
-  .top_sport {
+  .header {
     min-height: 568px;
     background-image: url("../../images/mobile/top_sport.jpg");
   }
-  .top_sport .surface_logo {
+  .header .surface_logo {
     min-height: 36px;
     margin-top: 33px;
     width: 133px;
