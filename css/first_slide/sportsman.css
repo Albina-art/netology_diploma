@@ -49,8 +49,6 @@
   bottom: 0;
   left: 0;
   content: '';
-  width: 19px;
-  height: 5px;
   border-radius: 2px;
   background-color: #5e42b0;
 }
@@ -72,27 +70,20 @@
   .title_main {
     padding-top: 115px;
     padding-bottom: 92px;
-    font-size: 5rem;
   }
-
   .title_sportsman {
     font-size: 2.25rem;
   }
   .content p {
     margin-top: 18px;
     font-size: 20px;
-    letter-spacing: 1px;
   }
-  .num_sportsman {
-    font-size: 18px;
-  }
-
 }
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .title_main {
     padding-top: 80px;
     padding-bottom: 60px;
-    font-size: 5rem;
   }
 
   .title_sportsman {
@@ -102,12 +93,20 @@
     margin-top: 15px;
     font-size: 16px;
     line-height: 28px;
-    letter-spacing: 0.8px;
   }
+}
+
+@media (min-width: 768px) {
   .num_sportsman {
     font-size: 18px;
   }
-
+  .num_sportsman::after {
+    width: 80%;
+    height: 5px;
+  }
+  .title_main {
+    font-size: 5rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -124,10 +123,13 @@
     margin-top: 12px;
     font-size: 15px;
     line-height: 18px;
-    letter-spacing: 0.75px;
   }
   .num_sportsman {
     font-size: 14px;
+  }
+  .num_sportsman::after {
+    width: 17px;
+    height: 4px;
   }
 
 }

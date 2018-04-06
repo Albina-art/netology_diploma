@@ -28,6 +28,8 @@
   .top_player {
     min-height: 450px;
     padding-left: 16.9%;
+    padding-bottom: 70px;
+    box-sizing: border-box;
   }
   .player .middle_sportsman{
     min-height: 244px;
@@ -46,9 +48,6 @@
     max-height: 815px;
     max-width: 991px;
     background-image: url("../../images/desktop/player.png");
-  }
-  .top_player p {
-    max-width: 450px;
   }
   .player .middle_sportsman p {
     max-width: 600px;
@@ -79,14 +78,11 @@
     width: 690px;
     height: 565px;
     margin-top: 10px;
-
     background-image: url("../../images/tablets/player.png");
   }
-
   .footballer_player {
     overflow: hidden;
     width: 436px;
-
     position: absolute;
   }
   .player .desktop {

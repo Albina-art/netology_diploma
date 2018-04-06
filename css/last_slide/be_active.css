@@ -31,12 +31,11 @@
     box-sizing: border-box;
   }
   .number .num_sportsman {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 61px;
+    margin: auto;
   }
   .number .num_sportsman::after {
     top: 30px;
+    width: 100%;
   }
   .be_active {
     min-height: 730px;

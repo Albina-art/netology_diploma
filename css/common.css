@@ -23,19 +23,9 @@ h3, p, body {
 .google_play, .apple_logo {
   position: absolute;
 }
-
 .button {
   display: flex;
 }
-
-#button_right .logo_bottom, #button_right .logo_top {
-  margin-left: 126px;
-}
-
-#button_left .logo_bottom, #button_left .logo_top {
-  margin-left: 105px;
-}
-
 .logo_top {
   margin-top: auto;
   font-family: OpenSansRegular;
@@ -62,28 +52,7 @@ h3, p, body {
     min-width: 17%;
   }
   .button {
-    font-size: 0.875rem;
     margin-top: 9%;
-    min-height: 77px;
-  }
-  #button_left {
-    margin-left: auto;
-    margin-right: 3%;
-  }
-  #button_right {
-    margin-right: auto;
-  }
-  .apple_logo {
-    padding-left: 38px;
-    padding-top: 11px;
-    height: 48px;
-    width: 42px;
-  }
-  .google_play {
-    padding-top: 11px;
-    margin-left: 57px;
-    height: 50px;
-    width: 40px;
   }
 
 }
@@ -95,16 +64,11 @@ h3, p, body {
     width: 40.5%;
   }
   .button {
-    font-size: 0.875rem;
     margin-top: 32.5%;
   }
-  #button_left {
-    margin-left: auto;
-    margin-right: 3%;
-  }
-  #button_right {
-    margin-right: auto;
-  }
+}
+
+@media (min-width: 768px) {
   .apple_logo {
     padding-left: 38px;
     padding-top: 11px;
@@ -117,17 +81,34 @@ h3, p, body {
     height: 50px;
     width: 40px;
   }
-
+  .button {
+    font-size: 0.875rem;
+    min-height: 77px;
+  }
+  #button_left {
+    margin-left: auto;
+    margin-right: 3%;
+  }
+  #button_right {
+    margin-right: auto;
+  }
+  #button_right .logo_bottom, #button_right .logo_top {
+    margin-left: 38.7%;
+  }
+  #button_left .logo_bottom, #button_left .logo_top {
+    margin-left: 32.2%;
+  }
 }
+
 @media (max-width: 767px) {
   .container {
     min-width: 320px;
   }
   .button_logo {
-    min-height: 35px;
     width: 87.5%;
   }
   .button {
+    min-height: 35px;
     font-size: 0.5rem;
     flex-direction: column;
     margin-top: 81px;
@@ -138,24 +119,19 @@ h3, p, body {
   #button_left {
     margin-bottom: 15px;
   }
-
-  #button_right .logo_bottom, #button_right .logo_top {
-    margin-left: 122px;
-  }
-  #button_left .logo_bottom, #button_left .logo_top {
+  .logo_bottom, .logo_top {
     margin-left: 122px;
   }
   .apple_logo {
     margin-left: 82px;
-    margin-top: 3px;
+    margin-top: auto;
     height: 24px;
     width: 20px;
   }
   .google_play {
-    padding-top: 6px;
+    margin-top: auto;
     margin-left: 82px;
     height: 24px;
     width: 22px;
   }
-
 }

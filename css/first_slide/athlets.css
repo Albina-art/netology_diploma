@@ -34,16 +34,23 @@
   .top_athlets {
     min-height: 405px;
     padding-left: 50%;
+    box-sizing: border-box;
   }
   .athlets .middle_sportsman {
     padding-left: 50%;
+    padding-top: 63px;
+    padding-bottom: 58px;
     min-height: 256px;
+    box-sizing: border-box;
   }
   .athlets .footer_sportsman {
     z-index: 2;
     position: relative;
     padding-left: 50%;
+    padding-top: 91px;
+    padding-bottom: 101px;
     min-height: 297px;
+    box-sizing: border-box;
   }
   .athlets .middle_sportsman p {
     max-width: 625px;
