@@ -59,7 +59,7 @@ h3, p, body {
     max-width: 1920px;
   }
   .button_logo {
-    width: 17%;
+    min-width: 17%;
   }
   .button {
     font-size: 0.875rem;
@@ -74,14 +74,14 @@ h3, p, body {
     margin-right: auto;
   }
   .apple_logo {
-    padding-left: 1.97%;
-    padding-top: 0.67%;
+    padding-left: 38px;
+    padding-top: 11px;
     height: 48px;
     width: 42px;
   }
   .google_play {
-    padding-top: 0.57%;
-    margin-left: 2.9%;
+    padding-top: 11px;
+    margin-left: 57px;
     height: 50px;
     width: 40px;
   }
