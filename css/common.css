@@ -37,12 +37,21 @@ h3, p, body {
   letter-spacing: 0.7px;
 }
 .button_logo {
+  fill: white;
   display: flex;
   flex-direction: column;
   border-radius: 40px;
   box-shadow: 0 16px 24px #0a0e34;
   background-color: #5e42b0;
 }
+.surface_logo_text {
+  stroke: white;
+  fill: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (min-width: 1024px) {
   .container {
     margin: 0 auto;
