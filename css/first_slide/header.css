@@ -1,34 +1,42 @@
 .header {
-  color: #ffffff;
   text-transform: uppercase;
   background-size: cover;
   background-color: #0a0d34;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
+  color: #ffffff;
+}
+.header .container {
   display: flex;
   flex-direction: column;
 }
-
 .title {
   font-family: OpenSansBold;
+  display: flex;
+  flex-direction: column;
 }
 @media (min-width: 1024px) {
   .header .surface_logo_text {
     min-height: 2.7%;
     margin-top: 2.3%;
+    margin-left: auto;
+    margin-right: auto;
     width: 9.95%;
   }
   .title {
+    margin-top: 295px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1533px;
     font-size: 5.625rem;
   }
-  #title-left {
-    margin-top: 14.4%;
-    padding-left: 9.9%;
+  .title-left {
+    margin-right: auto;
   }
-  #title-right {
-    padding-left: 33.4%;
-    margin-top: -0.4%;
+  .title-right {
+    margin-top: -33px;
+    margin-left: auto;
   }
   .header {
     min-height: 960px;

@@ -74,6 +74,9 @@
   .title_sportsman {
     font-size: 2.25rem;
   }
+  .content {
+    margin-right: auto;
+  }
   .content p {
     margin-top: 18px;
     font-size: 20px;

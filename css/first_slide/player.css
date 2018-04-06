@@ -1,8 +1,8 @@
 .player {
   display: flex;
-  box-sizing: border-box;
   flex-direction: row-reverse;
 }
+
 .title_player {
   text-transform: uppercase;
   font-size: 5rem;
@@ -40,6 +40,7 @@
     min-height: 270px;
   }
   .footballer_player {
+    margin-right: auto;
     position: absolute;
     z-index: 1;
     margin-top: -30px;
