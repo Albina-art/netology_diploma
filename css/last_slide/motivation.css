@@ -1,3 +1,37 @@
+.motivation .number {
+  box-sizing: border-box;
+  background: #5e3db3;
+  font-family: OpenSansBold;
+  display: flex;
+  color: white;
+  text-align: center;
+}
+.motivation .number span {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.motivation .number span::after {
+  width: 88%;
+  top: 35%;
+  content: '';
+  position: absolute;
+  height: 0.2em;
+  left: 0.02em;
+  content: '';
+  border-radius: 0.1em;
+  background-color: #ffffff;
+  opacity: 0.3;
+}
+.motivation .context h2 {
+  color: #e7e7e7;
+  text-transform: uppercase;
+  letter-spacing: 0.075rem;
+}
+.motivation .context p {
+  margin-top: 0;
+}
+
 @media (min-width: 961px) {
   img {
     vertical-align: top;
@@ -13,23 +47,19 @@
   }
   .motivation .number {
     position: absolute;
-    top: 28.9%;
-    margin-left: auto;
-    margin-right: auto;
-    left: 45.3%;
-    width: 8.7%;
-    height: 21.8%;
+    top: 11vw;
+    left: 45.7vw;
+    width: 8.6vw;
+    height: 8vw;
   }
-
   .motivation .number span {
     font-size: 1.25vw;
+    margin-top: 2.54em;
   }
-
   .motivation .context h2 {
     font-size: 4.17vw;
     margin-bottom: 4.5vw;
   }
-
   .motivation .context {
     padding-left: 6vw;
     padding-top: 7.8vw;
@@ -67,11 +97,11 @@
     height: 15.1vw;
     width: 15.1vw;
   }
-
   .motivation .number span {
     font-size: 3.125vw;
+    margin-top: 1.75em;
+    margin-bottom: -0.5em;
   }
-
   .motivation .context h2 {
     font-size: 10.4vw;
     margin-bottom: 0.05em;
@@ -94,8 +124,8 @@
   .motivation:nth-child(3) .context p {
     max-width: 74vw;
   }
-
 }
+
 @media (max-width: 640px) {
   .motivation .number {
     position: absolute;
@@ -104,11 +134,10 @@
     height: 21.9vw;
     width: 21.9vw;
   }
-
   .motivation .number span {
     font-size: 4.8vw;
+    margin-top: 1.9em;
   }
-
   .motivation .context h2 {
     font-size: 8.75vw;
     margin-bottom: 0.05em;
@@ -131,64 +160,4 @@
   .motivation:nth-child(3) .context p {
     max-width: 75vw;
   }
-
 }
-.motivation .number {
-  font-family: OpenSansBold;
-  display: flex;
-  background: #5e3db3;
-  /*width: 7rem;*/
-  /*height: 7rem;*/
-  /*top: -6rem;*/
-  /*left: 2rem;*/
-  color: white;
-  text-align: center;
-  box-sizing: border-box;
-  /*padding-top: 2rem;*/
-  /*margin-bottom: -6rem;*/
-}
-
-.motivation .number span {
-  position: relative;
-  margin: auto;
-}
-
-.motivation .number span::after {
-  content: '';
-  position: absolute;
-  /*bottom: 0;*/
-  width: 100%;
-  height: 0.25em;
-  left: 2%;
-  top: 100%;
-  content: '';
-  border-radius: 2px;
-  background-color: #ffffff;
-  opacity: 0.3;
-}
-
-
-.motivation .context {
-  /*margin-left: 2rem;*/
-  /*margin-bottom: 7.8rem;*/
-}
-
-.motivation .context h2 {
-  color: #e7e7e7;
-      /*font-size: 2.8rem;*/
-  text-transform: uppercase;
-  /*margin-top: 1rem;*/
-  letter-spacing: 0.075rem;
-  /*margin-bottom: 1.3rem;*/
-
-}
-
-.motivation .context p {
-  /*font-size: 1.6rem;*/
-  margin-top: 0;
-  /*letter-spacing: 0.08rem;*/
-  /*padding-right: 2rem;*/
-  /*line-height: 1.3em;*/
-
-}
-

@@ -53,11 +53,9 @@ img {
     margin-top: 9%;
     min-height: 4vw;
     font-size: 0.7vw;
-
   }
   .button_left, .button_right {
     min-width: 16.2vw;
-    /*105px*/
   }
   .apple_logo {
     padding-top: 0.78em;
@@ -71,10 +69,8 @@ img {
     width: 2.85em;
     height: 3.6em;
   }
-
-
-
 }
+
 @media (min-width: 641px) and (max-width: 960px) {
   .container {
     width: 100%;
@@ -88,7 +84,6 @@ img {
   }
   .button_left, .button_right {
     min-width: 40.4vw;
-    /*105px*/
   }
  .apple_logo {
     padding-left: 2.7em;
@@ -102,8 +97,6 @@ img {
     height: 3.2em;
     width: 2.9em;
   }
-
-
 }
 
 @media (min-width: 641px) {
