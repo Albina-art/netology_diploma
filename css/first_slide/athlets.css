@@ -16,7 +16,7 @@
 .athlets .footer_sportsman .num_sportsman {
   color: #0a0e34;
 }
-@media (min-width: 1024px) {
+@media (min-width: 961px) {
   .footballer_athlets {
     z-index: 3;
     margin-top: -31px;
@@ -56,7 +56,7 @@
     max-width: 600px;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 641px) and (max-width: 960px) {
   .footballer_athlets {
     margin-top: 95px;
     margin-left: -162px;
@@ -87,7 +87,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 640px) {
   .athlets {
     flex-direction: column;
   }

@@ -66,7 +66,7 @@
 .footer_sportsman  p {
   color: #ffffff;
 }
-@media (min-width: 1024px) {
+@media (min-width: 961px) {
   .title_main {
     padding-top: 115px;
     padding-bottom: 92px;
@@ -83,7 +83,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 641px) and (max-width: 960px) {
   .title_main {
     padding-top: 80px;
     padding-bottom: 60px;
@@ -99,7 +99,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 641px) {
   .num_sportsman {
     font-size: 18px;
   }
@@ -112,7 +112,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 640px) {
   .title_main {
     padding-top: 24px;
     padding-bottom: 18px;

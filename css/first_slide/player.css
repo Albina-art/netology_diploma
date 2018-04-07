@@ -24,7 +24,7 @@
 .player .footer_sportsman .num_sportsman {
   color: #9173e6;
 }
-@media (min-width: 1024px) {
+@media (min-width: 961px) {
   .top_player {
     min-height: 450px;
     padding-left: 16.9%;
@@ -58,7 +58,7 @@
   }
 
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 641px) and (max-width: 961px) {
   .player {
     max-width: 100%
   }
@@ -97,7 +97,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 640px) {
   .player {
     min-width: 320px;
   }

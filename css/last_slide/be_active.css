@@ -20,7 +20,7 @@
   font-size: 1.5rem;
   font-weight: 400;
 }
-@media (min-width: 1024px) {
+@media (min-width: 961px) {
   .number {
     min-width: 168px;
     height: 155px;
@@ -79,7 +79,7 @@
     letter-spacing: 1.2px;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 641px) and (max-width: 960px) {
   .number {
     width: 116px;
     height: 116px;
@@ -123,7 +123,7 @@
     flex-direction: column;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 640px) {
   .be_active_img {
     width: 100%;
     min-height: 351px;
