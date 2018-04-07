@@ -14,56 +14,58 @@ footer {
 }
 .footer_surface {
   stroke: white;
-  width: 130px;
-  height: 137px;
-  border-radius: 15px;
-  box-shadow: 0 16px 24px #0a0e34;
   background-color: #5e42b0;
 }
-#download_text {
+.download_text {
   color: #a496ca;
   font-family: OpenSansRegular;
   font-weight: 400;
-  line-height: 34.49px;
   text-transform: uppercase;
   position: absolute;
 }
 @media (min-width: 961px) {
   footer {
-    min-height: 960px;
     background-image: url("../../images/desktop/footer_sport.jpg");
   }
   .top_footer {
-    padding-top: 229px;
-    padding-left: 504px;
+    padding-top: 11.9vw;
+    padding-left: 26.25vw;
     display: flex;
   }
   .text_footer {
-    margin-left: 37px;
-    margin-top: 22px;
-    font-size: 5rem;
+    margin-left: 1.9vw;
+    margin-top: 1.15vw;
+    font-size: 4.2vw;
     font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 4.41px;
+    line-height: 3.1vw;
+    letter-spacing: 0.05em;
   }
+  .footer_surface {
+    width: 6.8vw;
+    height: 7.14vw;
+    border-radius: 0.78vw;
+    box-shadow: 0 0.83vw 1.25vw #0a0e34;
+  }
+
   footer .surface_logo {
-    width: 80px;
-    height: 80px;
-    margin-left: 28px;
-    margin-top: 28px;
+    width: 4.2vw;
+    height: 4.2vw;
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
     position: absolute;
   }
   footer .button {
-    margin-top: 7.8%;
+    margin-top: 8.3vw;
   }
-  #download_text {
-    font-size: 1.875rem;
-    margin-top: 20px;
+  .download_text {
+    font-size: 1.56vw;
+    margin-top: 1vw;
   }
   footer .surface_logo_text {
-    margin-top: 262px;
-    width: 191px;
-    height: 52px;
+    margin-top: 13.6vw;
+    padding-bottom: 2.7vw;
+    width: 9.9vw;
+    height: 2.7vw;
     margin-left: auto;
     margin-right: auto;
   }
@@ -76,39 +78,41 @@ footer {
     background-image: url("../../images/tablets/footer_sport.jpg");
   }
   .text_footer {
-    font-size: 5rem;
+    font-size: 10.4vw;
     font-weight: 400;
-    line-height: 60px;
+    line-height: 0.75em;
   }
   .top_footer {
-    margin: 0 auto;
+    margin: 0 auto;1920
   }
 
   footer .surface_logo {
-    width: 80px;
-    height: 80px;
+    width: 10.4vw;
+    height: 10.4vw;
     margin: auto;
   }
   .footer_surface {
-    margin-top: 126px;
-    margin-bottom: 82px;
-    width: 130px;
-    height: 137px;
+    margin-top: 16.4vw;
+    margin-bottom: 10.7vw;
+    width: 16.9vw;
+    height: 17.8vw;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    border-radius: 1.78vw;
+    box-shadow: 0 0.83vw 1.25vw #0a0e34;
   }
   footer .button {
-    margin-top: 342px;
+    margin-top: 44.5vw;
   }
-  #download_text {
-    font-size: 1.875rem;
-    margin-top: 20px;
+  .download_text {
+    font-size: 3.9vw;
+    margin-top: 0.67em;
   }
   .surface_logo_text {
-    margin-top: 55px;
-    width: 191px;
-    height: 52px;
+    margin-top: 7.2vw;
+    width: 24.9vw;
+    height: 6.8vw;
     margin-left: auto;
     margin-right: auto;
   }
@@ -116,44 +120,43 @@ footer {
 }
 @media (max-width: 640px) {
   footer {
-    min-height: 568px;
     background-image: url("../../images/mobile/footer_sport.jpg");
   }
   .footer_surface {
-    width: 72px;
-    height: 74px;
-    margin-top: 99px;
-    margin-bottom: 48px;
+    width: 22.5vw;
+    height: 23.1vw;
+    margin-top: 30.9vw;
+    margin-bottom: 15vw;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    border-radius: 3.78vw;
+    box-shadow: 0 0.83vw 1.25vw #0a0e34;
   }
   footer .surface_logo {
-    width: 50px;
-    height: 50px;
+    width: 15.6vw;
+    height: 15.6vw;
     margin: auto;
   }
   footer .button {
-    margin-top: 91px;
+    margin-top: 28.4vw;
   }
   .text_footer {
-    font-size: 2rem;
+    font-size: 10vw;
     font-weight: 700;
-    letter-spasing: 1.6;
   }
   .top_footer {
     margin: 0 auto;
   }
-  #download_text {
-    font-size: 14px;
-    margin-top: -8px;
+  .download_text {
+    font-size: 4.3vw;
   }
   .surface_logo_text {
-    margin-top: 86px;
+    margin-top: 26.8vw;
+    padding-bottom: 1.8vw;
     margin-left: auto;
     margin-right: auto;
-    width: 133px;
-    height: 36px;
+    width: 41.7vw;
+    height: 11.25vw;
   }
-
 }
