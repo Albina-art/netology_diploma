@@ -1,0 +1,194 @@
+@media (min-width: 961px) {
+  img {
+    vertical-align: top;
+  }
+  .motivation {
+    display: flex;
+    position: relative;
+  }
+  .motivation .context,
+  .motivation .img {
+    flex-grow: 1;
+    flex-basis: 50%;
+  }
+  .motivation .number {
+    position: absolute;
+    top: 28.9%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 45.3%;
+    width: 8.7%;
+    height: 21.8%;
+  }
+
+  .motivation .number span {
+    font-size: 1.25vw;
+  }
+
+  .motivation .context h2 {
+    font-size: 4.17vw;
+    margin-bottom: 4.5vw;
+  }
+
+  .motivation .context {
+    padding-left: 6vw;
+    padding-top: 7.8vw;
+    box-sizing: border-box;
+  }
+  .motivation .context p {
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.25em;
+    letter-spacing: 0.05em;
+  }
+  .motivation:nth-child(2) .context {
+    padding-left: 9.5vw;
+  }
+  .motivation:nth-child(2) .img {
+    order: 1;
+  }
+  .motivation:nth-child(1) .context p {
+    max-width: 18vw;
+  }
+  .motivation:nth-child(2) .context p {
+    max-width: 20vw;
+    padding-right: 17.5vw;
+  }
+  .motivation:nth-child(3) .context p {
+    max-width: 26vw;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .motivation .number {
+    position: absolute;
+    margin-top: -10.4vw;
+    margin-left: 4.3vw;
+    height: 15.1vw;
+    width: 15.1vw;
+  }
+
+  .motivation .number span {
+    font-size: 3.125vw;
+  }
+
+  .motivation .context h2 {
+    font-size: 10.4vw;
+    margin-bottom: 0.05em;
+    margin-top: 1.125em;
+  }
+  .motivation .context {
+    margin-bottom: 9rem;
+    margin-left: 3rem;
+  }
+  .motivation .context p {
+    font-size: 3.125vw;
+    letter-spacing: 0.04em;
+  }
+  .motivation:nth-child(1) .context p {
+     max-width: 77vw;
+  }
+  .motivation:nth-child(2) .context p {
+    max-width: 72vw;
+  }
+  .motivation:nth-child(3) .context p {
+    max-width: 74vw;
+  }
+
+}
+@media (max-width: 640px) {
+  .motivation .number {
+    position: absolute;
+    margin-top: -18.6vw;
+    margin-left: 6.25vw;
+    height: 21.9vw;
+    width: 21.9vw;
+  }
+
+  .motivation .number span {
+    font-size: 4.8vw;
+  }
+
+  .motivation .context h2 {
+    font-size: 8.75vw;
+    margin-bottom: 0.05em;
+    margin-top: 0.54em;
+  }
+  .motivation .context {
+    margin-bottom: 2.75em;
+    margin-left: 6.25vw;
+  }
+  .motivation .context p {
+    font-size: 5vw;
+    letter-spacing: 0.04em;
+  }
+  .motivation:nth-child(1) .context p {
+     max-width: 72vw;
+  }
+  .motivation:nth-child(2) .context p {
+    max-width: 75vw;
+  }
+  .motivation:nth-child(3) .context p {
+    max-width: 75vw;
+  }
+
+}
+.motivation .number {
+  font-family: OpenSansBold;
+  display: flex;
+  background: #5e3db3;
+  /*width: 7rem;*/
+  /*height: 7rem;*/
+  /*top: -6rem;*/
+  /*left: 2rem;*/
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  /*padding-top: 2rem;*/
+  /*margin-bottom: -6rem;*/
+}
+
+.motivation .number span {
+  position: relative;
+  margin: auto;
+}
+
+.motivation .number span::after {
+  content: '';
+  position: absolute;
+  /*bottom: 0;*/
+  width: 100%;
+  height: 0.25em;
+  left: 2%;
+  top: 100%;
+  content: '';
+  border-radius: 2px;
+  background-color: #ffffff;
+  opacity: 0.3;
+}
+
+
+.motivation .context {
+  /*margin-left: 2rem;*/
+  /*margin-bottom: 7.8rem;*/
+}
+
+.motivation .context h2 {
+  color: #e7e7e7;
+      /*font-size: 2.8rem;*/
+  text-transform: uppercase;
+  /*margin-top: 1rem;*/
+  letter-spacing: 0.075rem;
+  /*margin-bottom: 1.3rem;*/
+
+}
+
+.motivation .context p {
+  /*font-size: 1.6rem;*/
+  margin-top: 0;
+  /*letter-spacing: 0.08rem;*/
+  /*padding-right: 2rem;*/
+  /*line-height: 1.3em;*/
+
+}
+

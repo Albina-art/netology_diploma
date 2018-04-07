@@ -1,27 +1,17 @@
-@font-face {
-  font-family: OpenSansBold;
-  src: url("../fonts/OpenSans-Bold.woff") format("woff"),
-    url("../fonts/OpenSans-Bold.woff2") format("woff2");
-    url("../fonts/OpenSans-Bold.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face-bold {
-  font-family: OpenSansRegular;
-  src: url("../fonts/OpenSans-Regular.woff") format("woff"),
-    url("../fonts/OpenSans-Regular.woff2") format("woff2");
-    url("../fonts/OpenSans-Regular.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-html {
-  font-size: 100%;
-}
+@import "fonts.css";
 
-h3, p, body {
+body {
   margin: 0;
+  background-color: #fff;
+  font-family: OpenSansRegular;
+  box-sizing: border-box;
 }
-
+h2 {
+  font-family: OpenSansBold;
+}
+img {
+  width: 100%;
+}
 .google_play, .apple_logo {
   position: absolute;
 }
@@ -41,7 +31,6 @@ h3, p, body {
 .button_left, .button_right {
   fill: white;
   display: flex;
-  min-width: 311px;
   flex-direction: column;
   border-radius: 40px;
   box-shadow: 0 16px 24px #0a0e34;
@@ -55,64 +44,64 @@ h3, p, body {
   margin-right: auto;
 }
 
-@media (min-width: 961px) {
-  .container {
-    margin: 0 auto;
-    max-width: 1920px;
-  }
-  .button_logo {
-    min-width: 17%;
-  }
-  .button {
-    margin-top: 9%;
-  }
+/*@media (min-width: 961px) {*/
+  /*.container {*/
+    /*margin: 0 auto;*/
+    /*max-width: 1920px;*/
+  /*}*/
+  /*.button_logo {*/
+    /*min-width: 17%;*/
+  /*}*/
+  /*.button {*/
+    /*margin-top: 9%;*/
+  /*}*/
 
-}
-@media (min-width: 641px) and (max-width: 960px) {
-  .container {
-    width: 100%;
-  }
-  .button_logo {
-    width: 40.5%;
-  }
-  .button {
-    margin-top: 32.5%;
-  }
-}
+/*}*/
+/*@media (min-width: 641px) and (max-width: 960px) {*/
+  /*.container {*/
+    /*width: 100%;*/
+  /*}*/
+  /*.button_logo {*/
+    /*width: 40.5%;*/
+  /*}*/
+  /*.button {*/
+    /*margin-top: 32.5%;*/
+  /*}*/
+/*}*/
 
-@media (min-width: 641px) {
-  .apple_logo {
-    padding-left: 38px;
-    padding-top: 11px;
-    height: 48px;
-    width: 42px;
-  }
-  .google_play {
-    padding-top: 11px;
-    margin-left: 57px;
-    height: 50px;
-    width: 40px;
-  }
-  .button {
-    font-size: 0.875rem;
-    min-height: 77px;
-  }
-  .button_left {
-    margin-left: auto;
-    margin-right: 3%;
-  }
-  .button_right {
-    margin-right: auto;
-  }
-  .button_right .logo_bottom, .button_right .logo_top {
-    margin-left: 38.7%;
+/*@media (min-width: 641px) {*/
+  /*.apple_logo {*/
+    /*padding-left: 38px;*/
+    /*padding-top: 11px;*/
+    /*height: 48px;*/
+    /*width: 42px;*/
+  /*}*/
+  /*.google_play {*/
+    /*padding-top: 11px;*/
+    /*margin-left: 57px;*/
+    /*height: 50px;*/
+    /*width: 40px;*/
+  /*}*/
+  /*.button {*/
+    /*font-size: 0.875rem;*/
+    /*min-height: 77px;*/
+  /*}*/
+  /*.button_left {*/
+    /*margin-left: auto;*/
+    /*margin-right: 3%;*/
+  /*}*/
+  /*.button_right {*/
+    /*margin-right: auto;*/
+  /*}*/
+  /*.button_right .logo_bottom, .button_right .logo_top {*/
+    /*margin-left: 38.7%;*/
     /*126*/
-  }
-  .button_left .logo_bottom, .button_left .logo_top {
-    margin-left: 32.2%;
+  /*}*/
+  /*.button_left .logo_bottom, .button_left .logo_top {*/
+    /*margin-left: 32.2%;*/
     /*105px*/
-  }
-}
+  /*}*/
+/*}*/
 
 @media (max-width: 640px) {
   .container {
@@ -122,30 +111,30 @@ h3, p, body {
     width: 87.5%;
   }
   .button {
-    min-height: 35px;
-    font-size: 0.5rem;
+    font-size: 2.5vw;
     flex-direction: column;
     margin-top: 81px;
   }
-  #button_right, #button_left {
+  .button_right, .button_left {
+    min-height: 10.9vw;
+    min-width: 97.1vw;
     margin: 0 auto;
   }
-  #button_left {
-    margin-bottom: 15px;
+  .button_left {
+    margin-bottom: 4.7vw;
   }
   .logo_bottom, .logo_top {
-    margin-left: 122px;
+    margin-left: 38.1vw;
+  }
+  .apple_logo, .google_play {
+    margin-top: 1.8vw;
+    height: 7.5vw;
+    margin-left: 25.6vw;
   }
   .apple_logo {
-    margin-left: 82px;
-    margin-top: auto;
-    height: 24px;
-    width: 20px;
+    width: 6.25vw;
   }
   .google_play {
-    margin-top: auto;
-    margin-left: 82px;
-    height: 24px;
-    width: 22px;
+    width: 6.875vw;
   }
 }
