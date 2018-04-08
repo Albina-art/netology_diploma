@@ -1,17 +1,49 @@
 @import "fonts.css";
-
 body {
   margin: 0;
   background-color: #fff;
   font-family: OpenSansRegular;
   box-sizing: border-box;
 }
-h2 {
+h1, h2, h3, .number, .logo_bottom {
   font-family: OpenSansBold;
+  text-transform: uppercase;
+}
+h2 {
+  color: #e7e7e7;
 }
 img {
   width: 100%;
 }
+footer, header {
+  color: #ffffff;
+	text-transform: uppercase;
+  background-size: cover;
+  background-color: #0a0d34;
+  background-repeat: no-repeat;
+}
+.sportsman h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.05em;
+  color: #c1c1c1;
+}
+.sportsman .number {
+  color: #000000;
+}
+.sportsman .number::after {
+  top: 100%;
+}
+.sportsman:not(:last-child) .number::after {
+  background-color: #5e42b0;
+}
+.sportsman:not(:last-child) p {
+  color: #000;
+}
+.sportsman:nth-last-child(1) {
+  color: white;
+}
+
 .google_play, .apple_logo {
   position: absolute;
 }
@@ -20,12 +52,10 @@ img {
 }
 .logo_top {
   margin-top: auto;
-  font-family: OpenSansRegular;
   letter-spacing: 0.7px;
 }
 .logo_bottom {
   margin-bottom: auto;
-  font-family: OpenSansBold;
   letter-spacing: 0.7px;
 }
 .button_left, .button_right {
@@ -43,12 +73,21 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.number {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.number::after {
+  width: 80%;
+  content: '';
+  height: 0.2em;
+  left: 10%;
+  border-radius: 0.1em;
+  position: absolute;
+}
 
 @media (min-width: 961px) {
-  /*.container {*/
-    /*margin: 0 auto;*/
-    /*max-width: 1920px;*/
-  /*}*/
   .button {
     margin-top: 9%;
     min-height: 4vw;
@@ -72,9 +111,6 @@ img {
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
-  /*.container {*/
-    /*width: 100%;*/
-  /*}*/
   .button {
     margin-top: 32.5%;
   }
@@ -109,7 +145,6 @@ img {
   }
   .button_right .logo_bottom, .button_right .logo_top {
     margin-left: 38.7%;
-    /*126*/
   }
   .button_left .logo_bottom, .button_left .logo_top {
     margin-left: 32.2%;
@@ -117,9 +152,6 @@ img {
 }
 
 @media (max-width: 640px) {
-  /*.container {*/
-    /*min-width: 320px;*/
-  /*}*/
   .button {
     font-size: 2.5vw;
     flex-direction: column;
@@ -127,7 +159,7 @@ img {
   }
   .button_right, .button_left {
     min-height: 10.9vw;
-    min-width: 97.1vw;
+    min-width: 87.5vw;
     margin: 0 auto;
   }
   .button_left {

@@ -1,32 +1,14 @@
-.motivation .number {
+.motivation .number_box {
   box-sizing: border-box;
   background: #5e3db3;
-  font-family: OpenSansBold;
   display: flex;
   color: white;
   text-align: center;
 }
-.motivation .number span {
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-}
-.motivation .number span::after {
-  width: 80%;
+.motivation .number::after {
   top: 38%;
-  content: '';
-  position: absolute;
-  height: 0.2em;
-  left: 10%;
-  content: '';
-  border-radius: 0.1em;
   background-color: #ffffff;
   opacity: 0.3;
-}
-.motivation .context h2 {
-  color: #e7e7e7;
-  text-transform: uppercase;
-  letter-spacing: 0.075rem;
 }
 .motivation .context p {
   margin-top: 0;
@@ -44,14 +26,14 @@
   .motivation .img {
     flex-basis: 50%;
   }
-  .motivation .number {
+  .motivation .number_box {
     position: absolute;
     top: 11vw;
     left: 45.7vw;
     width: 8.6vw;
     height: 8vw;
   }
-  .motivation .number span {
+  .motivation .number {
     font-size: 1.25vw;
     margin-top: 2.6vw;
     margin-bottom: 1vw;
@@ -74,7 +56,7 @@
   .motivation:nth-child(even) .context {
     padding-left: 9.5vw;
   }
-  .motivation:nth-child(even) .img {
+  .motivation:nth-child(even) .img {#5e42b0;
     order: 1;
   }
 
@@ -91,14 +73,14 @@
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
-  .motivation .number {
+  .motivation .number_box {
     position: absolute;
     margin-top: -10.4vw;
     margin-left: 4.3vw;
     height: 15.1vw;
     width: 15.1vw;
   }
-  .motivation .number span {
+  .motivation .number {
     font-size: 3.125vw;
     margin-top: 4.6vw;
   }
@@ -127,14 +109,14 @@
 }
 
 @media (max-width: 640px) {
-  .motivation .number {
+  .motivation .number_box {
     position: absolute;
     margin-top: -18.6vw;
     margin-left: 6.25vw;
     height: 21.9vw;
     width: 21.9vw;
   }
-  .motivation .number span {
+  .motivation .number {
     font-size: 4.3vw;
     margin-top: 6.8vw;
   }

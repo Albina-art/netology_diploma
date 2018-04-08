@@ -1,27 +1,18 @@
 footer {
   display: flex;
   flex-direction: column;
-  color: #ffffff;
-  text-transform: uppercase;
-  background-size: cover;
-  background-color: #0a0d34;
-  background-repeat: no-repeat;
 }
-.text_footer {
+footer h2 {
+  margin: 0;
   color: #ffffff;
-  font-family: OpenSansBold;
-  text-transform: uppercase;
 }
 .footer_surface {
   stroke: white;
   background-color: #5e42b0;
 }
-.download_text {
+footer h4 {
   color: #a496ca;
-  font-family: OpenSansRegular;
   font-weight: 400;
-  text-transform: uppercase;
-  position: absolute;
 }
 @media (min-width: 961px) {
   footer {
@@ -32,9 +23,11 @@ footer {
     padding-left: 26.25vw;
     display: flex;
   }
-  .text_footer {
+  footer .context {
     margin-left: 1.9vw;
     margin-top: 1.15vw;
+  }
+  footer h2 {
     font-size: 4.2vw;
     font-weight: 700;
     line-height: 3.1vw;
@@ -57,7 +50,8 @@ footer {
   footer .button {
     margin-top: 8.3vw;
   }
-  .download_text {
+  footer h4 {
+    position: absolute;
     font-size: 1.56vw;
     margin-top: 0.7vw;
   }
@@ -66,18 +60,15 @@ footer {
     padding-bottom: 2.7vw;
     width: 9.9vw;
     height: 2.7vw;
-    margin-left: auto;
-    margin-right: auto;
   }
 
 }
 @media (min-width: 641px) and (max-width: 960px) {
   footer {
-    min-height: 960px;
     width: 100%;
     background-image: url("../../images/tablets/footer_sport.jpg");
   }
-  .text_footer {
+  footer h2 {
     font-size: 10.4vw;
     font-weight: 400;
     line-height: 0.75em;
@@ -85,7 +76,9 @@ footer {
   .top_footer {
     margin: 0 auto;1920
   }
-
+  footer .context {
+    text-align: center;
+  }
   footer .surface_logo {
     width: 10.4vw;
     height: 10.4vw;
@@ -105,16 +98,17 @@ footer {
   footer .button {
     margin-top: 44.5vw;
   }
-  .download_text {
+  footer h4 {
     font-size: 3.9vw;
-    margin-top: 0.67em;
+    margin-top: 2.8vw;
+    padding-left: auto;
+    padding-right: auto;
   }
   .surface_logo_text {
     margin-top: 7.2vw;
+    padding-bottom: 2.7vw;
     width: 24.9vw;
     height: 6.8vw;
-    margin-left: auto;
-    margin-right: auto;
   }
 
 }
@@ -141,21 +135,22 @@ footer {
   footer .button {
     margin-top: 28.4vw;
   }
-  .text_footer {
+  footer .context {
+    text-align: center;
+  }
+  footer h2 {
     font-size: 10vw;
     font-weight: 700;
   }
   .top_footer {
     margin: 0 auto;
   }
-  .download_text {
+  footer h4 {
     font-size: 4.3vw;
   }
   .surface_logo_text {
     margin-top: 26.8vw;
     padding-bottom: 1.8vw;
-    margin-left: auto;
-    margin-right: auto;
     width: 41.7vw;
     height: 11.25vw;
   }

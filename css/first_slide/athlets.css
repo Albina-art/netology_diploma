@@ -1,128 +1,240 @@
-.top_athlets {
-  font-family: OpenSansBold;
+.athlets div {
+  padding-left: 52.4vw;
+  padding-bottom: 3.6vw;
 }
-.athlets .middle_sportsman{
-  background: #f6f3fa;
-  min-height: 256px;
+.athlets .sportsman:nth-last-child(2) {
+  background: rgba(94, 66, 176, 0.06);
 }
-.athlets .footer_sportsman {
-  background: #5e3db3;
+.athlets .sportsman:nth-last-child(1) {
+  background: #5e42b0;
 }
-.footballer_athlets {
-  background-size: contain;
-  position: absolute;
-  background-repeat: no-repeat;
+.athlets h2 {
+  padding-left: 52.4vw;
 }
-.athlets .footer_sportsman .num_sportsman {
+.athlets .sportsman:nth-last-child(1) .number {
   color: #0a0e34;
 }
+.athlets .sportsman:nth-last-child(1) .number::after {
+  background-color: #efefef;
+}
+
 @media (min-width: 961px) {
-  .footballer_athlets {
-    z-index: 3;
-    margin-top: -31px;
-    margin-left: 273px;
-    margin-right: 922px;
-    width: 37.7%;
-    height: 115.1%;
-    max-height: 1105px;
-    max-width: 725px;
-    background-image: url("../../images/desktop/athlets.png");
-  }
-  .top_athlets {
-    min-height: 405px;
-    padding-left: 50%;
-    box-sizing: border-box;
-  }
-  .athlets .middle_sportsman {
-    padding-left: 50%;
-    padding-top: 63px;
-    padding-bottom: 58px;
-    min-height: 256px;
-    box-sizing: border-box;
-  }
-  .athlets .footer_sportsman {
-    z-index: 2;
+  .athlets {
     position: relative;
-    padding-left: 50%;
-    padding-top: 91px;
-    padding-bottom: 101px;
-    min-height: 297px;
-    box-sizing: border-box;
+    overflow: hidden;
   }
-  .athlets .middle_sportsman p {
-    max-width: 625px;
+  .athlets img {
+    position: absolute;
+    margin-left: 14.2vw;
+		top: -1vw;
+    max-width: 37.8vw;
   }
-  .athlets .footer_sportsman p {
-    max-width: 600px;
+  .athlets h2 {
+    font-size: 4.2vw;
+    margin-top: 4.6vw;
+    margin-bottom: 0;
+  }
+  .athlets div {
+    padding-bottom: 1.9vw;
+    padding-top: 1.9vw;
+  }
+  .athlets p {
+    padding-right: 7.5vw;
+    font-size: 1.2vw;
+    line-height: 1.2em;
+    margin-top: 0;
+    letter-spacing: 0;
+  }
+  .athlets .number {
+    font-size: 0.94vw;
+    top: -0.5vw;
+  }
+  .athlets h3 {
+    font-size: 1.8vw;
+    margin-bottom: 0.8vw;
+  }
+  .athlets .tablets {
+    display: none;
   }
 }
 @media (min-width: 641px) and (max-width: 960px) {
-  .footballer_athlets {
-    margin-top: 95px;
-    margin-left: -162px;
-    min-width: 497px;
-    height: 699px;
-    background-image: url("../../images/tablets/athlets.png");
-  }
-  .top_athlets {
-    padding-left: 291px;
-    min-height: 350px;
-  }
-  .athlets .middle_sportsman{
-    padding-left: 291px;
-    min-height: 235px;
-  }
-  .athlets .footer_sportsman {
-    padding-left: 291px;
-    min-height: 205px;
-  }
-  .athlets .middle_sportsman p {
-    max-width: 375px;
-  }
-  .athlets .footer_sportsman p {
-    max-width: 400px;
-  }
   .athlets {
-    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .athlets img {
+    position: absolute;
+    margin-left: 41.9vw;
+    top: -1.4vw;
+    max-width: 51.5vw;
+  }
+  .athlets h2 {
+    font-size: 4.2vw;
+    margin-top: 4.6vw;
+    margin-bottom: 0;
+  }
+  .athlets div {
+    padding-bottom: 1.9vw;
+    padding-top: 1.9vw;
+  }
+  .athlets p {
+    padding-right: 7.5vw;
+    font-size: 1.2vw;
+    line-height: 1.2em;
+    margin-top: 0;
+    letter-spacing: 0;
+  }
+  .athlets .number {
+    font-size: 0.94vw;
+    top: -0.5vw;
+  }
+  .athlets h3 {
+    font-size: 1.8vw;
+    margin-bottom: 0.8vw;
+  }
+  .athlets .tablets {
+    display: none;
   }
 }
 
-@media (max-width: 640px) {
-  .athlets {
-    flex-direction: column;
-  }
-  .footballer_athlets {
-    margin-top: 80px;
-    margin-left: 70px;
-    min-width: 192px;
-    height: 281px;
-    background-image: url("../../images/mobile/athlets.png");
-  }
-  .top_athlets {
-    margin-right: 32px;
-    margin-left: 20px;
-    min-height: 213px;
-  }
-  .top_athlets .title_main {
-    margin-bottom: 300px;
-  }
-  .top_athlets p {
-    padding-bottom: 51px;
-  }
+/*.athlets {*/
+  /*display: flex;*/
+  /*flex-direction: row-reverse;*/
+/*}*/
 
-  .athlets .middle_sportsman {
-    padding-left: 20px;
-    min-height: 262px;
-  }
-  .athlets .footer_sportsman {
-    padding-left: 20px;
-    min-height: 208px;
-  }
-  .athlets .middle_sportsman p {
-    padding-right: 52px;
-  }
-  .athlets .footer_sportsman p {
-    padding-right: 66px;
-  }
+/*.title_player {*/
+  /*text-transform: uppercase;*/
+  /*font-size: 5rem;*/
+  /*color: #e6e6e6;*/
+/*}*/
+/*.top_player {*/
+  /*background-size: 100%;*/
+/*}*/
+/*.athlets .middle_sportsman{*/
+  /*background: #f5f4f9;*/
+/*}*/
+/*.athlets .footer_sportsman {*/
+  /*background: #0a0e34;*/
+/*}*/
+/*.footballer_player {*/
+  /*background-size: contain;*/
+  /*background-repeat: no-repeat;*/
+/*}*/
+/*.athlets .footer_sportsman .num_sportsman {*/
+  /*color: #9173e6;*/
+/*}*/
+/*@media (min-width: 961px) {*/
+  /*.top_player {*/
+    /*min-height: 450px;*/
+    /*padding-left: 16.9%;*/
+    /*padding-bottom: 70px;*/
+    /*box-sizing: border-box;*/
+  /*}*/
+  /*.athlets .middle_sportsman{*/
+    /*min-height: 244px;*/
+    /*padding-left: 16.9%;*/
+  /*}*/
+  /*.athlets .footer_sportsman {*/
+    /*padding-left: 16.9%;*/
+    /*min-height: 270px;*/
+  /*}*/
+  /*.footballer_player {*/
+    /*margin-right: auto;*/
+    /*position: absolute;*/
+    /*z-index: 1;*/
+    /*margin-top: -30px;*/
+    /*width: 51.7%;*/
+    /*height: 84.6%;*/
+    /*max-height: 815px;*/
+    /*max-width: 991px;*/
+    /*background-image: url("../../images/desktop/athlets.png");*/
+  /*}*/
+  /*.athlets .middle_sportsman p {*/
+    /*max-width: 600px;*/
+  /*}*/
+  /*.athlets .tablets {*/
+    /*display: none;*/
+  /*}*/
 
-}
+/*}*/
+/*@media (min-width: 641px) and (max-width: 961px) {*/
+  /*.athlets {*/
+    /*max-width: 100%*/
+  /*}*/
+  /*.top_player {*/
+    /*min-height: 350px;*/
+    /*padding-left: 34px;*/
+  /*}*/
+  /*.athlets .middle_sportsman{*/
+    /*min-height: 235px;*/
+    /*padding-left: 34px;*/
+  /*}*/
+  /*.athlets .footer_sportsman {*/
+    /*padding-left: 34px;*/
+    /*min-height: 205px;*/
+  /*}*/
+  /*.footballer_player_child{*/
+    /*position: relative;*/
+    /*width: 690px;*/
+    /*height: 565px;*/
+    /*margin-top: 10px;*/
+    /*background-image: url("../../images/tablets/athlets.png");*/
+  /*}*/
+  /*.footballer_player {*/
+    /*overflow: hidden;*/
+    /*width: 436px;*/
+    /*position: absolute;*/
+  /*}*/
+  /*.athlets .desktop {*/
+    /*display: none;*/
+  /*}*/
+  /*.top_player p {*/
+    /*max-width: 300px;*/
+  /*}*/
+  /*.athlets .middle_sportsman p {*/
+    /*max-width: 400px;*/
+  /*}*/
+/*}*/
+
+/*@media (max-width: 640px) {*/
+  /*.athlets {*/
+    /*min-width: 320px;*/
+  /*}*/
+  /*.top_player {*/
+    /*min-height: 350px;*/
+    /*padding-left: 20px;*/
+  /*}*/
+  /*.top_player .title_main {*/
+    /*margin-bottom: 300px;*/
+  /*}*/
+
+  /*.athlets .middle_sportsman{*/
+    /*min-height: 235px;*/
+    /*padding-left: 20px;*/
+  /*}*/
+  /*.athlets .footer_sportsman {*/
+    /*padding-left: 20px;*/
+    /*min-height: 205px;*/
+  /*}*/
+  /*.footballer_player {*/
+    /*margin-left: -7px;*/
+    /*position: absolute;*/
+    /*width: 302px;*/
+    /*height: 248px;*/
+    /*margin-top: 83px;*/
+    /*background-image: url("../../images/mobile/athlets.png");*/
+  /*}*/
+  /*.athlets .desktop {*/
+    /*display: none;*/
+  /*}*/
+  /*.top_player p {*/
+    /*max-width: 245px;*/
+  /*}*/
+  /*.athlets .middle_sportsman p {*/
+    /*max-width: 400px;*/
+  /*}*/
+  /*.athlets .footer_sportsman p {*/
+    /*max-width: 225px;*/
+  /*}*/
+
+/*}*/

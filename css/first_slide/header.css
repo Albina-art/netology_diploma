@@ -1,18 +1,8 @@
-header {
-  text-transform: uppercase;
-  background-size: cover;
-  background-color: #0a0d34;
-  background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-  color: #ffffff;
-}
 header .container {
   display: flex;
   flex-direction: column;
 }
-.title {
-  font-family: OpenSansBold;
+h1 {
   display: flex;
   flex-direction: column;
 }
@@ -24,16 +14,14 @@ header .container {
     margin-right: auto;
     margin-top: 2.34vw;
   }
-  .title {
+  h1 {
     margin-top: 15.36vw;
     font-size: 4.6vw;
-  }
-  .title-left {
     margin-left: 9.9vw;
   }
-  .title-right {
+  h1 span {
     margin-top: -1.7vw;
-    margin-left: 33.4vw;
+    padding-left: 23.5vw;
   }
   header {
     position: relative;
@@ -53,17 +41,14 @@ header .container {
     margin-top: 5.1vw;
     width: 26.7vw;
   }
-  .title {
+  h1 {
     font-size: 8.3vw;
-  }
-  .title-left {
-    line-height: 4vw;
     margin-top: 23.6vw;
     padding-left: 11.7vw;
   }
-  .title-right {
+  h1 span {
     letter-spacing: 0.05em;
-    padding-left: 25.4vw;
+    padding-left: 12vw;
     margin-top: 3.9vw;
   }
   header .button {
@@ -81,17 +66,15 @@ header .container {
     margin-top: 10.3vw;
     width: 41.6vw;
   }
-  .title {
+  h1 {
     font-size: 8.75vw;
-  }
-  .title-left {
     line-height: 9.8vw;
     margin-top: 42.5vw;
     padding-left: 6.25vw;
   }
-  .title-right {
+  h1 span {
     letter-spacing: 0.04em;
-    padding-left: 20vw;
+    padding-left: 13.75vw;
     margin-top: 4.7vw;
   }
   header .button {
