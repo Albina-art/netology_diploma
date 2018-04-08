@@ -71,16 +71,17 @@
     line-height: 1.25em;
     letter-spacing: 0.05em;
   }
-  .motivation:nth-child(2) .context {
+  .motivation:nth-child(even) .context {
     padding-left: 9.5vw;
   }
-  .motivation:nth-child(2) .img {
+  .motivation:nth-child(even) .img {
     order: 1;
   }
+
   .motivation:nth-child(1) .context p {
     max-width: 18vw;
   }
-  .motivation:nth-child(2) .context p {
+  .motivation:nth-child(even) .context p {
     max-width: 20vw;
     padding-right: 17.5vw;
   }
