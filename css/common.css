@@ -110,7 +110,12 @@ footer, header {
     padding-top: 1.9vw;
   }
   .sportsman p {
-		max-width: 31.25vw;
+		font-size: 1.05vw;
+    padding-right: 7.5vw;
+		font-weight: 400;
+		line-height: 1.45vw;
+    margin-top: 0;
+		letter-spacing: 0.05em;
   }
 
   .sportsman h3 {
@@ -139,13 +144,6 @@ footer, header {
     width: 2vw;
     height: 2.6vw;
   }
-	.sportsman p {
-    padding-right: 7.5vw;
-    font-size: 1.2vw;
-    line-height: 1.2em;
-    margin-top: 0;
-    letter-spacing: 0;
-	}
 	.sportsman .number {
     top: -0.5vw;
     font-size: 0.94vw;

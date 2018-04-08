@@ -23,6 +23,9 @@
   .athlets .sportsman {
 	  padding-left: 52.4vw;
   }
+  .athlets p {
+		max-width: 37.25vw;
+  }
 }
 @media (min-width: 641px) and (max-width: 960px) {
   .athlets img {
