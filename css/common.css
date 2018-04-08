@@ -58,16 +58,16 @@ img {
     min-width: 16.2vw;
   }
   .apple_logo {
-    padding-top: 0.78em;
-    padding-left: 2.7em;
-    height: 3.4em;
-    width: 3em;
+    padding-top: 0.57vw;
+    padding-left: 1.97vw;
+    height: 2.5vw;
+    width: 2.1vw;
   }
   .google_play {
-    padding-top: 1em;
-    margin-left: 4em;
-    width: 2.85em;
-    height: 3.6em;
+    padding-top: 0.72vw;
+    margin-left: 2.97vw;
+    width: 2vw;
+    height: 2.6vw;
   }
 }
 

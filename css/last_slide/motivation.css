@@ -12,12 +12,12 @@
   position: relative;
 }
 .motivation .number span::after {
-  width: 88%;
-  top: 35%;
+  width: 80%;
+  top: 38%;
   content: '';
   position: absolute;
   height: 0.2em;
-  left: 0.02em;
+  left: 10%;
   content: '';
   border-radius: 0.1em;
   background-color: #ffffff;
@@ -34,7 +34,7 @@
 
 @media (min-width: 961px) {
   img {
-    vertical-align: top;
+    height: 100%;
   }
   .motivation {
     display: flex;
@@ -42,7 +42,6 @@
   }
   .motivation .context,
   .motivation .img {
-    flex-grow: 1;
     flex-basis: 50%;
   }
   .motivation .number {
@@ -54,7 +53,8 @@
   }
   .motivation .number span {
     font-size: 1.25vw;
-    margin-top: 2.54em;
+    margin-top: 2.6vw;
+    margin-bottom: 1vw;
   }
   .motivation .context h2 {
     font-size: 4.17vw;
@@ -99,8 +99,7 @@
   }
   .motivation .number span {
     font-size: 3.125vw;
-    margin-top: 1.75em;
-    margin-bottom: -0.5em;
+    margin-top: 4.6vw;
   }
   .motivation .context h2 {
     font-size: 10.4vw;
@@ -135,8 +134,8 @@
     width: 21.9vw;
   }
   .motivation .number span {
-    font-size: 4.8vw;
-    margin-top: 1.9em;
+    font-size: 4.3vw;
+    margin-top: 6.8vw;
   }
   .motivation .context h2 {
     font-size: 8.75vw;
