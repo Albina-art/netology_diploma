@@ -13,9 +13,9 @@
 
 @media (min-width: 961px) {
   .player img {
-    margin-left: 41.9vw;
-    top: -1.4vw;
-    max-width: 51.5vw;
+    margin-left: 42%;
+    top: -1rem;
+    max-width: 61rem;
   }
 	.player h2, .player .sportsman {
 	  padding-left: 18vw;

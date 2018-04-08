@@ -8,20 +8,22 @@ h1 {
 }
 @media (min-width: 961px) {
   header .surface_logo_text {
-    width: 9.9vw;
-    min-height: 2.7vw;
+    width: 11.9rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2.34vw;
+    margin-top: 2.34%;
   }
   h1 {
-    margin-top: 15.36vw;
-    font-size: 4.6vw;
-    margin-left: 9.9vw;
+    margin-top: 3.2em;
+    font-size: 5.625rem;
+    align-items: center;
   }
-  h1 span {
-    margin-top: -1.7vw;
-    padding-left: 23.5vw;
+  .h1_left {
+    margin-right: 7.7em;
+  }
+  .h1_right {
+    margin-top: -0.4em;
+    margin-left: 5.5em;
   }
   header {
     position: relative;
@@ -46,7 +48,7 @@ h1 {
     margin-top: 23.6vw;
     padding-left: 11.7vw;
   }
-  h1 span {
+  .h1_right {
     letter-spacing: 0.05em;
     padding-left: 12vw;
     margin-top: 3.9vw;
@@ -72,7 +74,7 @@ h1 {
     margin-top: 42.5vw;
     padding-left: 6.25vw;
   }
-  h1 span {
+  .h1_right {
     letter-spacing: 0.04em;
     padding-left: 13.75vw;
     margin-top: 4.7vw;

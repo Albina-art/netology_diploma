@@ -13,9 +13,9 @@
 
 @media (min-width: 961px) {
   .athlets img {
-    margin-left: 14.2vw;
-    top: -1.5vw;
-    max-width: 34.8vw;
+    margin-left: 15%;
+    top: -1.9rem;
+    max-width: 45.3rem;
   }
   .athlets h2 {
 		padding-left: 52.4vw;
@@ -24,7 +24,8 @@
 	  padding-left: 52.4vw;
   }
   .athlets p {
-		max-width: 37.25vw;
+    padding-right: 25%;
+		max-width: 59.7rem;
   }
 }
 @media (min-width: 641px) and (max-width: 960px) {

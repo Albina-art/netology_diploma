@@ -20,30 +20,31 @@ footer h4 {
   }
   .top_footer {
     padding-top: 11.9vw;
-    padding-left: 26.25vw;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
   }
   footer .context {
-    margin-left: 1.9vw;
-    margin-top: 1.15vw;
+    margin-left: 1em;
+    margin-top: 1.38rem;
   }
   footer h2 {
     font-weight: 700;
-    line-height: 3.1vw;
+    line-height: 0.6em;
     letter-spacing: 0.05em;
   }
   .footer_surface {
-    width: 6.8vw;
-    height: 7.14vw;
-    border-radius: 0.78vw;
-    box-shadow: 0 0.83vw 1.25vw #0a0e34;
+    width: 8.125rem;
+    height: 8.56rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 2px 24px #0a0e34;
   }
 
   footer .surface_logo {
-    width: 4.2vw;
-    height: 4.2vw;
-    margin-left: 1.5vw;
-    margin-top: 1.5vw;
+    width: 6rem;
+    height: 4rem;
+    margin-top: 1.8em;
+    margin-left: 1.1em;
     position: absolute;
   }
   footer .button {
@@ -51,14 +52,13 @@ footer h4 {
   }
   footer h4 {
     position: absolute;
-    font-size: 1.56vw;
-    margin-top: 0.7vw;
+    font-size: 1.875rem;
+    margin-top: 0.84rem;
   }
   footer .surface_logo_text {
-    margin-top: 13.6vw;
-    padding-bottom: 2.7vw;
-    width: 9.9vw;
-    height: 2.7vw;
+    margin-top: 16.32rem;
+    padding-bottom: 3.24rem;
+    width: 11.9rem;
   }
 
 }

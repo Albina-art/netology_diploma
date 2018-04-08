@@ -91,18 +91,19 @@ footer, header {
   position: absolute;
 }
 .player img, .athlets img {
+  background-size: contain;
 	position: absolute;
 }
 
 @media (min-width: 961px) {
   h3 {
-    font-size: 1.8vw;
+    font-size: 2.25rem;
   }
  	h2 {
-    font-size: 4.1vw;
+    font-size: 5rem;
 	}
   .player h2, .athlets h2 {
-    margin-top: 4.6vw;
+    margin-top: 1.1em;
     margin-bottom: 0;
   }
   .sportsman {
@@ -110,7 +111,7 @@ footer, header {
     padding-top: 1.9vw;
   }
   .sportsman p {
-		font-size: 1.05vw;
+		font-size: 1.25rem;
     padding-right: 7.5vw;
 		font-weight: 400;
 		line-height: 1.45vw;
@@ -125,28 +126,28 @@ footer, header {
     display: none;
   }
   .button {
-    margin-top: 9%;
-    min-height: 4vw;
-    font-size: 0.7vw;
+    margin-top: 15.9em;
+    min-height: 5.5em;
+    font-size: 0.875rem;
   }
   .button_left, .button_right {
-    min-width: 16.2vw;
+    min-width: 19.4rem;
   }
   .apple_logo {
-    padding-top: 0.57vw;
-    padding-left: 1.97vw;
-    height: 2.5vw;
-    width: 2.1vw;
+    padding-top: 0.75em;
+    padding-left: 2.7em;
+    height: 3.42em;
+    width: 3em;
   }
   .google_play {
-    padding-top: 0.72vw;
-    margin-left: 2.97vw;
-    width: 2vw;
-    height: 2.6vw;
+    padding-top: 1em;
+    margin-left: 4em;
+    width: 2.85em;
+    height: 3.57em;
   }
 	.sportsman .number {
-    top: -0.5vw;
-    font-size: 0.94vw;
+    top: -0.53em;
+    font-size: 1.125rem;
 	}
 }
 

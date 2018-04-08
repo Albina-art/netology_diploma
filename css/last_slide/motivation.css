@@ -17,7 +17,12 @@
 @media (min-width: 961px) {
   .motivation img {
     height: 100%;
+    background-size: cover;
   }
+  .motivation .img {
+    height: 730px;
+  }
+
   .motivation {
     display: flex;
     position: relative;
@@ -28,46 +33,50 @@
   }
   .motivation .number_box {
     position: absolute;
-    top: 11vw;
+    top: 13.1rem;
     left: 45.7vw;
-    width: 8.6vw;
-    height: 8vw;
+    width: 10.5rem;
+    height: 9.7rem;
   }
   .motivation .number {
-    font-size: 1.25vw;
-    margin-top: 2.6vw;
-    margin-bottom: 1vw;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1.2rem;
   }
   .motivation .context h2 {
-    margin-bottom: 4.5vw;
+    margin-bottom: 5.38rem;
+    margin-right: 8.6rem;
   }
   .motivation .context {
-    padding-left: 6vw;
-    padding-top: 7.8vw;
+    padding-left: 7rem;
+    padding-top: 9.3rem;
     box-sizing: border-box;
   }
   .motivation .context p {
-    font-size: 1.25vw;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.25em;
     letter-spacing: 0.05em;
   }
   .motivation:nth-child(even) .context {
-    padding-left: 9.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 11.54rem;
   }
   .motivation:nth-child(even) .img {
     order: 1;
   }
 
   .motivation:nth-last-child(3) .context p {
-    max-width: 18vw;
+    max-width: 26rem;
   }
   .motivation:nth-last-child(2) .context p {
-    max-width: 20vw;
-    padding-right: 17.5vw;
+    max-width: 24rem;
+    margin-right: 21rem;
   }
   .motivation:nth-last-child(1) .context p {
-    max-width: 26vw;
+    max-width: 31.2rem;
   }
 }
 
