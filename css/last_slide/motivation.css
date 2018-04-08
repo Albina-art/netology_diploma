@@ -39,7 +39,6 @@
     margin-bottom: 1vw;
   }
   .motivation .context h2 {
-    font-size: 4.17vw;
     margin-bottom: 4.5vw;
   }
   .motivation .context {
@@ -56,18 +55,18 @@
   .motivation:nth-child(even) .context {
     padding-left: 9.5vw;
   }
-  .motivation:nth-child(even) .img {#5e42b0;
+  .motivation:nth-child(even) .img {
     order: 1;
   }
 
-  .motivation:nth-child(1) .context p {
+  .motivation:nth-last-child(3) .context p {
     max-width: 18vw;
   }
-  .motivation:nth-child(even) .context p {
+  .motivation:nth-last-child(2) .context p {
     max-width: 20vw;
     padding-right: 17.5vw;
   }
-  .motivation:nth-child(3) .context p {
+  .motivation:nth-last-child(1) .context p {
     max-width: 26vw;
   }
 }
@@ -85,7 +84,6 @@
     margin-top: 4.6vw;
   }
   .motivation .context h2 {
-    font-size: 10.4vw;
     margin-bottom: 0.05em;
     margin-top: 1.125em;
   }
@@ -109,6 +107,10 @@
 }
 
 @media (max-width: 640px) {
+	.motivation h2 {
+    font-size: 8.75vw;
+	}
+
   .motivation .number_box {
     position: absolute;
     margin-top: -18.6vw;
@@ -121,7 +123,6 @@
     margin-top: 6.8vw;
   }
   .motivation .context h2 {
-    font-size: 8.75vw;
     margin-bottom: 0.05em;
     margin-top: 0.54em;
   }
