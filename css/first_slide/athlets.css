@@ -71,6 +71,9 @@
 
 }
 @media (max-width: 640px) {
+  .player .sportsman {
+    margin-top: 0;
+  }
 	.sportsman:nth-last-child(3) {
 		padding-top: 11.7vw;
     background-color: #fafafa;
@@ -79,6 +82,10 @@
     margin-left: 21.9vw;
     top: 25vw;
     max-width: 60vw;
+  }
+ 	.athlets .sportsman:nth-last-child(1) {
+    margin-top: -5vw;
+    padding-bottom: 7vw;
   }
  	.sportsman:nth-last-child(1) p,
 	.sportsman:nth-last-child(2) p {

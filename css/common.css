@@ -267,7 +267,6 @@ footer, header {
 	}
   .sportsman {
     padding-bottom: 10.9vw;
-    margin-top: -2vw;
     padding-top: 0.9vw;
   }
 	.athlets h2, .player h2, .sportsman {
@@ -284,7 +283,7 @@ footer, header {
   }
   .sportsman h3 {
     font-size: 8vw;
-    margin-bottom: 5.8vw;
+    margin-bottom: 4.8vw;
     margin-top: 12vw;
   }
   .sportsman .desktop {

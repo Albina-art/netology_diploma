@@ -73,13 +73,17 @@
     max-width: 94.3vw;
   }
   .player p {
+    margin-bottom: 9vw;
 		max-width: 44.5vw;
  	}
 	.player h2 {
 		margin-top: 2.6vw;
 	}
-  .player .sportsman:nth-last-child(1) .number {
-    padding-bottom: 18vw;
+  .player .sportsman {
+    margin-top: 0;
+  }
+  .player .sportsman:nth-last-child(1) {
+    margin-top: -9vw;
   }
 }
 
