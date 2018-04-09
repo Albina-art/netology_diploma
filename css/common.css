@@ -23,8 +23,6 @@ footer, header {
   background-repeat: no-repeat;
 }
 .sportsman h3 {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
   letter-spacing: 0.05em;
   color: #c1c1c1;
 }
@@ -102,31 +100,28 @@ footer, header {
  	h2 {
     font-size: 5rem;
 	}
-  .player h2, .athlets h2 {
-    margin-top: 1.1em;
-    margin-bottom: 0;
-  }
   .sportsman {
     padding-bottom: 1.9vw;
-    padding-top: 1.9vw;
+    padding-top: 2em;
   }
   .sportsman p {
 		font-size: 1.25rem;
     padding-right: 7.5vw;
 		font-weight: 400;
 		line-height: 1.45vw;
-    margin-top: 0;
-		letter-spacing: 0.05em;
+    margin-top: 0.05em;
+		letter-spacing: 0.06em;
   }
 
   .sportsman h3 {
+    margin-top: 0.7em;
     margin-bottom: 0.8vw;
   }
   .sportsman .tablets {
     display: none;
   }
   .button {
-    margin-top: 15.9em;
+    margin-top: 10.4em;
     min-height: 5.5em;
     font-size: 0.875rem;
   }
@@ -136,19 +131,27 @@ footer, header {
   .apple_logo {
     padding-top: 0.75em;
     padding-left: 2.7em;
-    height: 3.42em;
-    width: 3em;
+    width: 3.5em;
   }
   .google_play {
     padding-top: 1em;
     margin-left: 4em;
-    width: 2.85em;
-    height: 3.57em;
+    width: 3.8em;
   }
 	.sportsman .number {
     top: -0.53em;
-    font-size: 1.125rem;
+    left: 0.53em;
+    margin-right: 0.53em;
+    font-size: 1.2rem;
 	}
+  .button_right .logo_bottom, .button_right .logo_top {
+    margin-left: 9.4em;
+  }
+  .button_left .logo_bottom, .button_left .logo_top {
+    margin-left: 7.6em;
+  }
+
+
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
@@ -200,22 +203,22 @@ footer, header {
     font-size: 2vw;
 		top: -1vw;
 	}
+  .button_right .logo_bottom, .button_right .logo_top {
+    margin-left: 38.7%;
+  }
+  .button_left .logo_bottom, .button_left .logo_top {
+    margin-left: 32.2%;
+  }
 
 }
 
 @media (min-width: 641px) {
   .button_left {
     margin-left: auto;
-    margin-right: 3%;
+    margin-right: 2.5%;
   }
   .button_right {
     margin-right: auto;
-  }
-  .button_right .logo_bottom, .button_right .logo_top {
-    margin-left: 38.7%;
-  }
-  .button_left .logo_bottom, .button_left .logo_top {
-    margin-left: 32.2%;
   }
 }
 
