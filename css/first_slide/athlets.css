@@ -17,13 +17,11 @@
     top: -1.9rem;
     max-width: 45.3rem;
   }
-  .athlets h2 {
-		padding-left: 53vw;
-  }
   .athlets .sportsman {
 	  padding-left: 52.4vw;
   }
   .athlets h2 {
+		padding-left: 53vw;
     margin-top: 1.2em;
     margin-bottom: 0;
   }
@@ -36,6 +34,7 @@
 		margin-top: 2.8rem;
   }
 
+
   .athlets .sportsman:nth-last-child(1) p {
 		margin-bottom: 4rem;
   }
@@ -43,23 +42,37 @@
 }
 @media (min-width: 641px) and (max-width: 960px) {
   .athlets img {
-    margin-left: -21.1vw;
-    top: 8.3vw;
-    max-width: 64.7vw;
+    margin-left: -20.85vw;
+    top: 11vw;
+    max-width: 64vw;
   }
   .athlets h2 {
-	  padding-left: 37.9vw;
+	  margin-bottom: -1.5vw;
+	  margin-top: 7vw;
   }
-  .athlets .sportsman {
-	  padding-left: 37.9vw;
+
+  .athlets  {
+    padding-top: 0.01vw;
+  }
+
+  .athlets .sportsman, .athlets h2 {
+	  padding-left: 37vw;
   }
   .athlets p {
-		max-width: 49.7vw;
+		max-width: 55vw;
  	}
+  .athlets .sportsman:nth-last-child(1) {
+		padding-top: 1.9vw;
+  }
+
+  .athlets .sportsman:nth-last-child(3) p {
+		margin-bottom: 1.8rem;
+  }
+
 }
 @media (max-width: 640px) {
 	.sportsman:nth-last-child(3) {
-		padding-top: 20.7vw;
+		padding-top: 11.7vw;
     background-color: #fafafa;
 	}
   .athlets img {
@@ -72,7 +85,7 @@
     max-width: 76.7vw;
  	}
 	.sportsman:nth-last-child(3) p {
-    max-width: 82.7vw;
+    max-width: 83.7vw;
 	}
 }
 

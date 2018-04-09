@@ -39,19 +39,32 @@
 }
 @media (min-width: 641px) and (max-width: 960px) {
   .player img {
-    margin-left: 43.2vw;
-    top: 1.3vw;
+    margin-left: 41vw;
+    top: 4vw;
     max-width: 89.8vw;
   }
+  .player .sportsman {
+    padding-top: 2vw;
+  }
   .player p {
+    margin-bottom: 4vw;
 		max-width: 44.5vw;
  	}
-	.player h2 {
-		margin-top: 2.6vw;
-	}
 	.player h2, .player .sportsman {
   	padding-left: 4.4vw;
 	}
+  .player h2 {
+	  margin-bottom: -3vw;
+	  margin-top: 7vw;
+  }
+  .player .sportsman:nth-last-child(2) p {
+		margin-bottom: 3.4em;
+  }
+
+  .player .sportsman:nth-last-child(1) p {
+		margin-bottom: 1.56rem;
+  }
+
 }
 @media (max-width: 640px) {
   .player img {
@@ -65,5 +78,8 @@
 	.player h2 {
 		margin-top: 2.6vw;
 	}
+  .player .sportsman:nth-last-child(1) .number {
+    padding-bottom: 18vw;
+  }
 }
 

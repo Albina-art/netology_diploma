@@ -47,19 +47,25 @@ h1 {
     background-image: url("../../images/tablets/top_sport.jpg");
   }
   header .surface_logo_text {
-    min-height: 7.3vw;
-    margin-top: 5.1vw;
-    width: 26.7vw;
+    height: 8vw;
+    margin-left: 35vw;
+    margin-top: 4.8vw;
+    width: 26vw;
   }
   h1 {
     font-size: 8.3vw;
-    margin-top: 23.6vw;
+    margin-top: 17vw;
     padding-left: 11.7vw;
   }
+  .h1_left {
+    letter-spacing: 0.02em;
+  }
+
   .h1_right {
-    letter-spacing: 0.05em;
-    padding-left: 12vw;
-    margin-top: 3.9vw;
+    letter-spacing: 0.049em;
+    line-height: 1.2em;
+    padding-left: 13vw;
+    margin-top: -1.3vw;
   }
   header .button {
     padding-bottom: 11.8vw;
@@ -79,13 +85,14 @@ h1 {
   h1 {
     font-size: 8.75vw;
     line-height: 9.8vw;
-    margin-top: 42.5vw;
+    margin-top: 39.5vw;
     padding-left: 6.25vw;
+    letter-spacing: 0.04em;
   }
   .h1_right {
     letter-spacing: 0.04em;
     padding-left: 13.75vw;
-    margin-top: 4.7vw;
+    margin-top: 5.7vw;
   }
   header .button {
     padding-bottom: 26.25vw;

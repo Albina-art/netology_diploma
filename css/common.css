@@ -150,8 +150,9 @@ footer, header {
   .button_left .logo_bottom, .button_left .logo_top {
     margin-left: 7.6em;
   }
-
-
+  .button_left {
+    margin-right: 2.5%;
+  }
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
@@ -164,9 +165,7 @@ footer, header {
   .sportsman {
     padding-bottom: 1.9vw;
   }
-  .sportsman  {
-    padding-top: 1.9vw;
-  }
+
   .sportsman h3 {
     margin-bottom: 0.8vw;
   }
@@ -174,34 +173,39 @@ footer, header {
     display: none;
   }
   .button {
-    margin-top: 32.5%;
+    margin-top: 32.5vw;
   }
+  .logo_top {
+    padding-top: 0.7em;
+  }
+
   .button {
     font-size: 1.8vw;
     min-height: 5.5em;
   }
   .button_left, .button_right {
-    min-width: 40.4vw;
+    min-width: 39.5vw;
   }
 	.apple_logo {
-    padding-left: 2.7em;
+    padding-left: 2.65em;
     padding-top: 1.14em;
-    height: 3em;
-    width: 2.57em;
+    width: 3.2em;
   }
   .google_play {
-    padding-top: 1.2em;
-    margin-left: 4em;
-    height: 3.2em;
-    width: 2.9em;
+    padding-top: 1.3em;
+    margin-left: 3.75em;
+    width: 3.2em;
   }
 	.sportsman p {
-    font-size: 2.3vw;
+    font-size: 2vw;
     top: 0;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.8px;
 	}
 	.sportsman .number {
-    font-size: 2vw;
-		top: -1vw;
+    font-size: 2.6vw;
+		top: -1.2vw;
 	}
   .button_right .logo_bottom, .button_right .logo_top {
     margin-left: 38.7%;
@@ -209,13 +213,19 @@ footer, header {
   .button_left .logo_bottom, .button_left .logo_top {
     margin-left: 32.2%;
   }
+  .logo_top {
+    padding-bottom: 0.02vw;
+    padding-top: 0.02vw;
+  }
+  .button_left {
+    margin-right: 4.1vw;
+  }
 
 }
 
 @media (min-width: 641px) {
   .button_left {
     margin-left: auto;
-    margin-right: 2.5%;
   }
   .button_right {
     margin-right: auto;
@@ -226,7 +236,7 @@ footer, header {
   .button {
     font-size: 2.5vw;
     flex-direction: column;
-    margin-top: 81px;
+    margin-top: 21vw;
   }
   .button_right, .button_left {
     min-height: 10.9vw;
@@ -256,21 +266,26 @@ footer, header {
     font-size: 4.7vw;
 	}
   .sportsman {
-    padding-bottom: 1.9vw;
+    padding-bottom: 10.9vw;
+    margin-top: -2vw;
+    padding-top: 0.9vw;
   }
 	.athlets h2, .player h2, .sportsman {
 	  padding-left: 7.25vw;
 	}
+  .sportsman .number {
+    font-size: 4vw;
+    top: -3vw;
+  }
   .athlets h2, .player h2 {
     font-size: 16vw;
     margin-top: 2.1vw;
-    margin-bottom: 76.25vw;
-  }
-  .sportsman {
-    padding-top: 1.9vw;
+    margin-bottom: 74.25vw;
   }
   .sportsman h3 {
-    margin-bottom: 0.8vw;
+    font-size: 8vw;
+    margin-bottom: 5.8vw;
+    margin-top: 12vw;
   }
   .sportsman .desktop {
     display: none;

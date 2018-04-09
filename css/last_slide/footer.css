@@ -70,6 +70,7 @@ footer h4 {
   footer h2 {
     font-weight: 400;
     line-height: 0.75em;
+    letter-spacing: 0.05em;
   }
   .top_footer {
     margin: 0 auto;
@@ -78,8 +79,7 @@ footer h4 {
     text-align: center;
   }
   footer .surface_logo {
-    width: 10.4vw;
-    height: 10.4vw;
+    width: 12vw;
     margin: auto;
   }
   .footer_surface {
@@ -90,15 +90,15 @@ footer h4 {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    border-radius: 1.78vw;
+    border-radius: 5vw;
     box-shadow: 0 0.83vw 1.25vw #0a0e34;
   }
   footer .button {
-    margin-top: 44.5vw;
+    margin-top: 28.5vw;
   }
   footer h4 {
-    font-size: 3.9vw;
-    margin-top: 2.8vw;
+    font-size: 4.5vw;
+    margin-top: 1.8vw;
   }
   .surface_logo_text {
     margin-top: 7.2vw;
@@ -129,19 +129,21 @@ footer h4 {
     margin: auto;
   }
   footer .button {
-    margin-top: 28.4vw;
+    margin-top: 16.4vw;
   }
   footer .context {
     text-align: center;
   }
   footer h2 {
-    font-size: 10vw;
-    font-weight: 700;
+    font-size: 11vw;
+     font-weight: 700;
+    letter-spacing: 0.04vw;
   }
   .top_footer {
     margin: 0 auto;
   }
   footer h4 {
+    margin-top: -3vw;
     font-size: 4.3vw;
   }
   .surface_logo_text {
