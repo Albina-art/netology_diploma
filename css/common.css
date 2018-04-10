@@ -52,6 +52,11 @@ footer, header {
 .button {
   display: flex;
 }
+.button_left:hover,
+.button_right:hover {
+  background-image: linear-gradient(to top, #50329c 0%, #5e42b0 100%, #7751db 100%);
+}
+
 .logo_top {
   margin-top: auto;
   letter-spacing: 0.7px;
@@ -65,7 +70,7 @@ footer, header {
   display: flex;
   flex-direction: column;
   border-radius: 2.86em;
-  box-shadow: 0 1.4em 1.7em #0a0e34;
+  box-shadow: 0 16px 24px #0a0e34;
   background-color: #5e42b0;
 }
 .surface_logo_text {

@@ -8,8 +8,12 @@ footer h2 {
 }
 .footer_surface {
   stroke: white;
-  background-color: #5e42b0;
+  background-image: linear-gradient(to top, #50329c 0%, #5e3db3 51%, #7751db 100%);
 }
+.footer_surface:hover {
+  background-image: linear-gradient(to bottom, #50329c 0%, #5e3db3 51%, #7751db 100%);
+}
+
 footer h4 {
   color: #a496ca;
   font-weight: 400;
