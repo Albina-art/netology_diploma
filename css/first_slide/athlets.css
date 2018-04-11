@@ -13,7 +13,7 @@
 
 @media (min-width: 961px) {
   .athlets img {
-    margin-left: 15%;
+    right: 47vw;
     top: -1.9rem;
     max-width: 45.3rem;
   }
@@ -42,8 +42,8 @@
 }
 @media (min-width: 641px) and (max-width: 960px) {
   .athlets img {
-    margin-left: -20.85vw;
-    top: 11vw;
+    right: 57vw;
+    top: 12.5vw;
     max-width: 64vw;
   }
   .athlets h2 {
@@ -79,8 +79,8 @@
     background-color: #fafafa;
 	}
   .athlets img {
-    margin-left: 21.9vw;
-    top: 25vw;
+    right: 57vw;
+    top: 12.5vw;
     max-width: 60vw;
   }
  	.athlets .sportsman:nth-last-child(1) {

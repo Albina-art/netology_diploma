@@ -2,7 +2,7 @@ header .container {
   display: flex;
   flex-direction: column;
 }
-h1 {
+.header_title {
   display: flex;
   flex-direction: column;
 }
@@ -13,22 +13,24 @@ h1 {
     margin-right: auto;
     margin-top: 2.34%;
   }
-  h1 {
-    margin-top: 2.898em;
+  .header_title {
+    margin-top: 2.98em;
+    margin-right: auto;
+    margin-left: auto;
+
     font-size: 5.625rem;
-    align-items: center;
     font-weight: 700;
+    max-width: 81.7%;
   }
-  .h1_left {
-    margin-right: 9.2em;
+  .title_left {
+    margin-right: auto;
     letter-spacing: 0.055em;
   }
-  .h1_right {
-    margin-top: -0.1em;
-    margin-left: 5.2em;
-
+  .title_right {
+    margin-top: -0.2em;
+    margin-left: 5em;
     line-height: 100px;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.055em;
   }
   header {
     position: relative;
@@ -50,20 +52,22 @@ h1 {
     margin-top: 4.8vw;
     width: 26vw;
   }
-  h1 {
+  .header_title {
+    margin-right: auto;
+    margin-left: auto;
     font-size: 8.3vw;
     margin-top: 17vw;
-    padding-left: 11.7vw;
+    max-width: 81vw;
   }
-  .h1_left {
-    letter-spacing: 0.02em;
+  .title_left {
+    letter-spacing: 0.068em;
   }
 
-  .h1_right {
+  .title_right {
     letter-spacing: 0.049em;
     line-height: 1.2em;
-    padding-left: 13vw;
-    margin-top: -1.3vw;
+    margin-top: 0.62vw;
+    margin-left: 16.2vw;
   }
   header .button {
     padding-bottom: 11.8vw;
@@ -80,14 +84,22 @@ h1 {
     margin-top: 10.3vw;
     width: 41.6vw;
   }
-  h1 {
+  .header_title {
+    margin-right: auto;
+    margin-left: auto;
     font-size: 8.75vw;
     line-height: 9.8vw;
     margin-top: 39.5vw;
-    padding-left: 6.25vw;
+    max-width: 88vw;
     letter-spacing: 0.04em;
   }
-  .h1_right {
+  .title_left {
+    letter-spacing: 0.05em;
+    margin-right: auto;
+  }
+
+  .title_right {
+    margin-left: auto;
     letter-spacing: 0.04em;
     padding-left: 13.75vw;
     margin-top: 5.7vw;

@@ -5,7 +5,7 @@ body {
   font-family: OpenSansRegular;
   box-sizing: border-box;
 }
-h1, h2, h3, .number, .logo_bottom {
+.header_title, h2, h3, .number, .logo_bottom {
   font-family: OpenSansBold;
   text-transform: uppercase;
 }
@@ -113,7 +113,6 @@ footer, header {
 		font-size: 1.25rem;
     padding-right: 7.5vw;
 		font-weight: 400;
-		line-height: 1.45vw;
     margin-top: 0.05em;
 		letter-spacing: 0.06em;
   }
@@ -126,7 +125,7 @@ footer, header {
     display: none;
   }
   .button {
-    margin-top: 10.4em;
+    margin-top: 14.5em;
     min-height: 5.5em;
     font-size: 0.875rem;
   }
@@ -144,9 +143,9 @@ footer, header {
     width: 3.8em;
   }
 	.sportsman .number {
-    top: -0.53em;
-    left: 0.53em;
-    margin-right: 0.53em;
+    top: -0.6em;
+    left: 0.4em;
+    margin-right: 0.3em;
     font-size: 1.2rem;
 	}
   .button_right .logo_bottom, .button_right .logo_top {
@@ -178,7 +177,7 @@ footer, header {
     display: none;
   }
   .button {
-    margin-top: 32.5vw;
+    margin-top: 38.8vw;
   }
   .logo_top {
     padding-top: 0.7em;
@@ -223,7 +222,7 @@ footer, header {
     padding-top: 0.02vw;
   }
   .button_left {
-    margin-right: 4.1vw;
+    margin-right: 5.2vw;
   }
 
 }
@@ -241,7 +240,7 @@ footer, header {
   .button {
     font-size: 2.5vw;
     flex-direction: column;
-    margin-top: 21vw;
+    margin-top: 27vw;
   }
   .button_right, .button_left {
     min-height: 10.9vw;
