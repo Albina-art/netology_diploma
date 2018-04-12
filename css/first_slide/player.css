@@ -40,9 +40,8 @@
     margin-right: 27em;
   }
   .player .sportsman:nth-last-child(3) p {
-    padding-right: 38.5em;
+    padding-right: 24%;
     margin-bottom: 0.6em;
-    max-width: 500px;
   }
   .player .sportsman:nth-last-child(2) h3 {
     margin-right: 25em;
