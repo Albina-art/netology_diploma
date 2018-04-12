@@ -28,12 +28,10 @@
 
   .athlets p {
     padding-right: 20%;
-		max-width: 88rem;
   }
   .athlets .sportsman:nth-last-child(1) h3 {
 		margin-top: 2.8rem;
   }
-
 
   .athlets .sportsman:nth-last-child(1) p {
 		margin-bottom: 4rem;
