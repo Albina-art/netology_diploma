@@ -29,9 +29,9 @@ footer h4 {
     display: flex;
   }
   footer .context {
-    margin-left: -1em;
+    margin-left: -2em;
     padding-left: 4em;
-    margin-top: 2.2rem;
+    margin-top: 1.2rem;
   }
   footer h2 {
     font-weight: 700;
