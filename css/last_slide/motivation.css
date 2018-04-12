@@ -60,8 +60,8 @@
   }
   .motivation:nth-child(even) .img {
     order: 1;
-    margin-top: -5px;
-    margin-bottom: -5px;
+    margin-top: -6px;
+    margin-bottom: -6px;
   }
   .motivation:nth-last-child(1) .img {
     margin-bottom: -5px;
