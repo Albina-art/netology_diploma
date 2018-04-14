@@ -50,6 +50,7 @@
     box-sizing: border-box;
   }
   .motivation .context p {
+    /*font-size: 1.2vw;*/
     font-size: 1.2vw;
     font-weight: 400;
     line-height: 1.25em;
@@ -76,6 +77,7 @@
   }
   .motivation:nth-last-child(2) .context p {
     margin-left: auto;
+    margin-top: -1.6em;
     max-width: 29.7em;
     padding-right: 4vw;
   }

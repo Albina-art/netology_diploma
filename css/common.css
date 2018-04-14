@@ -102,14 +102,17 @@ footer, header {
   h3 {
     font-size: 2.25rem;
   }
- 	.player h2,
-  .athlets h2,
-  footer h2 {
+  h2 {
      font-size: 5rem;
-	}
-  .motivation h2 {
-    font-size: 4.2vw;
-	}
+  }
+   /*.player h2,*/
+  /*.athlets h2,*/
+  /*footer h2 {*/
+     /*font-size: 5rem;*/
+	/*}*/
+  /*.motivation h2 {*/
+    /*font-size: 4.2vw;*/
+	/*}*/
 
   .sportsman {
     padding-bottom: 1.9vw;
