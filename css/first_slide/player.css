@@ -1,86 +1,93 @@
 .player .sportsman:nth-last-child(2) {
-  background: rgba(10, 14, 52, 0.04);
+   background: rgba(10, 14, 52, 0.04);
 }
 .player .sportsman:nth-last-child(1) {
-  background: #090a36;
+   background: #090a36;
 }
 .player .sportsman:nth-last-child(1) .number {
-  color: #9173e6;
+   color: #9173e6;
 }
 .player .sportsman:nth-last-child(1) .number::after {
-  background-color: #ffffff;
+   background-color: #ffffff;
 }
 
 @media (min-width: 961px) {
   .player picture {
-    position: absolute;
-    margin-left: 50vw;
-    top: -2%;
-    width: 70%;
+     position: absolute;
+     margin-left: 50vw;
+     top: -2%;
+     width: 70%;
   }
   .player img {
-    width: 61rem;
-    margin-left: -10em;
+     width: 61rem;
+     margin-left: -10em;
   }
   .player h2 {
-    margin-top: 1.1em;
-    margin-bottom: 0.2em;
-    margin-left: 17%;
-    padding-right: 11.5em;
-	}
+     margin-top: 1.1em;
+     margin-bottom: 0.2em;
+     margin-left: 17%;
+     padding-right: 11.5em;
+  }
   .player .sportsman {
     display: flex;
     flex-direction: column;
   }
   .player h3 {    
-    margin-right: 5em;
-    margin-top: 0.4em;
-    margin-bottom: 0.4em;
+     margin-right: 5em;
+     margin-top: 0.4em;
+     margin-bottom: 0.4em;
   }
   .player p, .player h3 {
-    padding-right: 56%;
-    margin-left: auto;
-    max-width: 24em;
+     margin-left: auto;
+     max-width: 24em;
   }
   .player .sportsman:nth-last-child(3) p {
-    margin-bottom: 2em;
+     margin-bottom: 2em;
   }
   .player .sportsman:nth-last-child(2) p {
-		margin-bottom: 2em;
+     margin-bottom: 2em;
   }
   .player .sportsman:nth-last-child(1) p {
-		margin-bottom: 4rem;
+     margin-bottom: 4rem;
   }
-  .player .sportsman:nth-last-child(1) h3 {
-		margin-top: 3rem;
+  .player .sportsman:nth-last-child(2) h3 {
+     padding-right: 55%;
+     margin-top: 3rem;
+  }
+  .player .sportsman:nth-last-child(3) h3 {
+     padding-right: 57%;
+     margin-top: 3rem;
+  }
+  .player .sportsman:nth-last-child(1) h3 {    
+     padding-right: 63%;
   }
 }
 @media (min-width: 641px) and (max-width: 960px) {
   .player img {
-    margin-left: 41vw;
-    top: 4vw;
-    max-width: 89.8vw;
+     margin-left: 41vw;
+     top: 4vw;
+     max-width: 89.8vw;
   }
   .player .sportsman {
-    padding-top: 2vw;
+     padding-top: 2vw;
   }
   .player p {
-    margin-bottom: 4vw;
-		max-width: 44.5vw;
- 	}
-	.player h2, .player .sportsman {
-  	padding-left: 4.4vw;
-	}
-  .player h2 {
-	  margin-bottom: -3vw;
-	  margin-top: 7vw;
+     margin-bottom: 4vw;
+     max-width: 44.5vw;
   }
-  .player .sportsman:nth-last-child(2) p {
-		margin-bottom: 3.4em;
+  .player h2, .player .sportsman {
+     padding-left: 4.4vw;
+  }
+  .player h2 {
+     margin-bottom: -3vw;
+     margin-top: 7vw;
+  }
+  .player .sportsman:nth-last-child(2) p { 
+     margin-bottom: 3.4em;
   }
 
   .player .sportsman:nth-last-child(1) p {
-		margin-bottom: 2.56rem;
+    margin-bottom: 2.56rem;
   }
 
 }
@@ -91,12 +98,12 @@
     max-width: 94.3vw;
   }
   .player p {
-    margin-bottom: 9vw;
-		max-width: 44.5vw;
- 	}
-	.player h2 {
-		margin-top: 2.6vw;
-	}
+     margin-bottom: 9vw;
+     max-width: 44.5vw;
+  }
+   .player h2 {
+     margin-top: 2.6vw;
+  }
   .player .sportsman {
     margin-top: 0;
   }
