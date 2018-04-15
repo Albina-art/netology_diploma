@@ -85,6 +85,7 @@ header .container {
     width: 41.6vw;
   }
   .header_title {
+    max-width: 87vw;
     margin-right: auto;
     margin-left: auto;
     font-size: 8.75vw;
