@@ -20,7 +20,16 @@
   .athlets .sportsman {
 	  padding-left: 52.4vw;
   }
-  .athlets h2 {
+  .athlets p {
+    margin-top: 0.05em;
+    padding-right: 7.5vw;
+  }
+  .athlets .sportsman_parag_title {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .athlets .sportsman_title {
 		padding-left: 53vw;
     margin-top: 1.2em;
     margin-bottom: 0;
@@ -29,7 +38,7 @@
   .athlets p {
     padding-right: 20%;
   }
-  .athlets .sportsman:nth-last-child(1) h3 {
+  .athlets .sportsman:nth-last-child(1) .sportsman_parag_title {
 		margin-top: 2.8rem;
   }
 
@@ -44,7 +53,7 @@
     top: 12.5vw;
     max-width: 64vw;
   }
-  .athlets h2 {
+  .athlets .sportsman_title {
 	  margin-bottom: -1.5vw;
 	  margin-top: 7vw;
   }
@@ -53,7 +62,7 @@
     padding-top: 0.01vw;
   }
 
-  .athlets .sportsman, .athlets h2 {
+  .athlets .sportsman, .athlets .sportsman_title {
 	  padding-left: 37vw;
   }
   .athlets p {

@@ -76,7 +76,6 @@ header .container {
 }
 @media (max-width: 640px) {
   header {
-    /*min-height: 568px;*/
     background-image: url("../../images/mobile/top_sport.jpg");
   }
   header .surface_logo_text {
