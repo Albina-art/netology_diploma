@@ -66,6 +66,7 @@ footer, header {
   letter-spacing: 0.7px;
 }
 .button_left, .button_right {
+  cursor: pointer;
   fill: white;
   display: flex;
   flex-direction: column;
